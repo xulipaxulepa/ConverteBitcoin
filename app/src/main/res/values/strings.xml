@@ -1,6 +1,33 @@
 <resources>
+    <!-- Tela inicial do App -->
     <string name="app_name">Converte Bitcoin</string>
+    <string name="mensagem">Insira um valor em BitCoin</string>
 
+    <!-- Enquanto converte -->
+    <string name="TituloEspera">Convertendo</string>
+    <string name="MensagemEspera">Convertendo o valor desejado</string>
+
+    <!-- Dialog de conversão -->
+    <string name="TituloConversão">Valor Convertido</string>
+    <string name="MensagemConversão">O valor do BitCoin convertido em R$ é </string>
+
+    <!-- Caso não haja conexão -->
+    <string name="TituloSemConexão">Sem conexão</string>
+    <string name="MensagemSemConexão">Por favor, conecte seu dispositivo na internet</string>
+
+    <!-- Caso não haja nenhum valor inserido -->
+    <string name="TituloSemValor">Nenhum valor Inserido</string>
+    <string name="MensagemSemValor">Não há valores para converter, insira um valor</string>
+
+    <!-- Caso o valor inserido seja um ponto -->
+    <string name="TituloPonto">Valor Invalido</string>
+    <string name="MensagemPonto">O valor digitado não corresponde a um numero</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_TelaPrincipal">ca-app-pub-8594233121600137/9341936200</string>
+    <string name="ad_TelaAd">ca-app-pub-8594233121600137/5535041801</string>
+
+    <!-- Navigation -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 

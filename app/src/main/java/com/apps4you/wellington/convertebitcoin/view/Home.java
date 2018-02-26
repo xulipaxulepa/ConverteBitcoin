@@ -1,11 +1,14 @@
 package com.apps4you.wellington.convertebitcoin.view;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,14 +18,34 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.apps4you.wellington.convertebitcoin.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     ActionBarDrawerToggle toggle;
+
+    private boolean verificaConexão() {
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        return cm.getActiveNetworkInfo() != null;
+    }
+
+    private void exibeMensagem(String titulo, String mensagem){
+        new AlertDialog.Builder(this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle(titulo)
+                .setMessage(mensagem)
+                .setPositiveButton("OK", null).show();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +70,10 @@ public class Home extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        if(verificaConexão() == false){
+            exibeMensagem(getString(R.string.TituloSemConexão),getString(R.string.MensagemSemConexão));
+        }
     }
 
     @Override
@@ -130,5 +157,32 @@ public class Home extends AppCompatActivity
 
         return true;
 
+    }
+
+    public void Converter(View view) {
+        //Pega o valor digitado pelo usuário.
+        EditText valorparaconverter = (EditText) this.findViewById(R.id.editTextValorConversion);
+
+        List<Criptomoeda> moedas;
+        ListView lvListagem;
+
+        //Verifica se há um valor digitado, caso não houver demonstra uma mensagem.
+        if(valorparaconverter.getText().toString().equals("")){
+            exibeMensagem(getString(R.string.TituloSemValor),getString(R.string.MensagemSemValor));
+        }//Verifica se o valor digitado não é um ".", caso seja, exibe uma mensagem.
+        else if(valorparaconverter.getText().toString().equals(".")){
+            exibeMensagem(getString(R.string.TituloPonto),getString(R.string.MensagemPonto));
+        } else {
+            //Transforma o valor digitado em String.
+            String valor = valorparaconverter.getText().toString();
+
+            //Instancia a classe assincrona de conversão.
+            lvListagem = (ListView) view.findViewById(R.id.ListViewOthersConversions);
+            moedas = new ArrayList<>();
+            MyAsyncTask minhaTarefaAssincrona = new MyAsyncTask(this, lvListagem, moedas);
+
+            //Executa a função assincrona de conversão.
+            minhaTarefaAssincrona.execute(valor);
+        }
     }
 }
