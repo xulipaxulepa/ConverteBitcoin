@@ -55,6 +55,8 @@ public class CriptoMoedaAdapter extends BaseAdapter {
         TextView txtNome = (TextView)layout.findViewById(R.id.textViewValorNomeCriptomoeda);
         txtNome.setText(criptomoeda.getNome());
 
+        TextView txtPrecobtc = (TextView)layout.findViewById(R.id.textViewValorBtc);
+        txtPrecobtc.setText(criptomoeda.getPrice_btc());
 
         TextView txtvwbrl = (TextView)layout.findViewById(R.id.textViewValorBrl);
         txtvwbrl.setText(criptomoeda.getPrice_brl_unit());

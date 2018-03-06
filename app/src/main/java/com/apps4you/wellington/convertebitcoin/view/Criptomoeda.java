@@ -49,7 +49,6 @@ public class Criptomoeda {
     public void setVariacao(String variacao) {
         this.variacao = variacao;
     }
-
     public String getPrice_btc() {
         return price_btc;
     }
