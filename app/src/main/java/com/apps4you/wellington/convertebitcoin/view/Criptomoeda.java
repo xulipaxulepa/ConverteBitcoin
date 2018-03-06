@@ -1,5 +1,10 @@
 package com.apps4you.wellington.convertebitcoin.view;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import java.io.Serializable;
+
 /**
  * Created by xulipasoftworks on 25/02/2018.
  */
@@ -7,11 +12,18 @@ package com.apps4you.wellington.convertebitcoin.view;
 public class Criptomoeda {
 
     private String id;
+    private String nome;
     private String price_btc;
     private String price_usd;
     private String price_usd_unit;
     private String price_brl;
     private String price_brl_unit;
+    private String variacao;
+
+
+    protected Criptomoeda() {
+    }
+
 
     public String getId() {
         return id;
@@ -19,6 +31,23 @@ public class Criptomoeda {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+
+    public String getVariacao() {
+        return variacao;
+    }
+
+    public void setVariacao(String variacao) {
+        this.variacao = variacao;
     }
 
     public String getPrice_btc() {
@@ -60,4 +89,6 @@ public class Criptomoeda {
     public void setPrice_brl_unit(String price_brl_unit) {
         this.price_brl_unit = price_brl_unit;
     }
+
+
 }

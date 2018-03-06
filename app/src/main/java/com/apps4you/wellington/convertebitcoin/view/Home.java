@@ -4,10 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
+import android.os.Parcelable;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -16,8 +13,8 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -31,6 +28,8 @@ public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     ActionBarDrawerToggle toggle;
+    List<Criptomoeda> criptomoedas = new ArrayList<>();
+
 
     private boolean verificaConexão() {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -113,43 +112,22 @@ public class Home extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem menuItem) {
         // Handle navigation view item clicks here.
         // Create a new fragment and specify the fragment to show based on nav item clicked
-        Fragment fragment = null;
-        Class fragmentClass = null;
+
 
         int id = menuItem.getItemId();
 
         if (id == R.id.nav_home) {
 
-            fragmentClass = HomeFragment.class;
-
-        } else if (id == R.id.nav_conversion) {
-
-            fragmentClass = ConversionFragment.class;
-
-        } else if (id == R.id.nav_cotacao) {
+        } else if (id == R.id.nav_Criptomoedas) {
 
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_settings) {
 
         }
-        // DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        // drawer.closeDrawer(GravityCompat.START);
-
-        try {
-            fragment = (Fragment) fragmentClass.newInstance();
-            // Insert the fragment by replacing any existing fragment
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
 
         // Highlight the selected item has been done by NavigationView
         menuItem.setChecked(true);
-        // Set titulo
-        TextView textViewTitulo =  (TextView) findViewById(R.id.textViewTittle);
-        textViewTitulo.setText(menuItem.getTitle());
 
         // Close the navigation drawer
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -162,9 +140,12 @@ public class Home extends AppCompatActivity
     public void Converter(View view) {
         //Pega o valor digitado pelo usuário.
         EditText valorparaconverter = (EditText) this.findViewById(R.id.editTextValorConversion);
-
         List<Criptomoeda> moedas;
-        ListView lvListagem;
+        ListView mLvListagem;
+
+        TextView valorInseridoBtc =  (TextView) findViewById(R.id.textViewValorInserido);
+        TextView valorConversaoBtcBrl =  (TextView) findViewById(R.id.textViewValorConversao);
+        TextView valorConversaoBtcUsd =  (TextView) findViewById(R.id.textViewValorConversaoUSD);
 
         //Verifica se há um valor digitado, caso não houver demonstra uma mensagem.
         if(valorparaconverter.getText().toString().equals("")){
@@ -175,14 +156,17 @@ public class Home extends AppCompatActivity
         } else {
             //Transforma o valor digitado em String.
             String valor = valorparaconverter.getText().toString();
+            valorparaconverter.setText("");
 
             //Instancia a classe assincrona de conversão.
-            lvListagem = (ListView) view.findViewById(R.id.ListViewOthersConversions);
+            mLvListagem = (ListView) findViewById(R.id.listViewOthersConversions);
             moedas = new ArrayList<>();
-            MyAsyncTask minhaTarefaAssincrona = new MyAsyncTask(this, lvListagem, moedas);
 
+            MyAsyncTask minhaTarefaAssincrona = new MyAsyncTask(this, valorInseridoBtc, valorConversaoBtcBrl, valorConversaoBtcUsd, valor, moedas, mLvListagem);
             //Executa a função assincrona de conversão.
             minhaTarefaAssincrona.execute(valor);
+
         }
     }
+
 }

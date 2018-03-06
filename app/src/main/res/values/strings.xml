@@ -8,20 +8,20 @@
     <string name="MensagemEspera">Convertendo o valor desejado</string>
 
     <!-- Dialog de conversão -->
-    <string name="TituloConversão">Valor Convertido</string>
-    <string name="MensagemConversão">O valor do BitCoin convertido em R$ é </string>
+    <string name="TituloConversão">Conversão Feita!</string>
+    <string name="MensagemConversão">O valor do Bitcoin inserido em BRL(R$) é:</string>
 
     <!-- Caso não haja conexão -->
-    <string name="TituloSemConexão">Sem conexão</string>
-    <string name="MensagemSemConexão">Por favor, conecte seu dispositivo na internet</string>
+    <string name="TituloSemConexão">Sem conexão!</string>
+    <string name="MensagemSemConexão">Por favor, conecte seu dispositivo à internet</string>
 
     <!-- Caso não haja nenhum valor inserido -->
-    <string name="TituloSemValor">Nenhum valor Inserido</string>
-    <string name="MensagemSemValor">Não há valores para converter, insira um valor</string>
+    <string name="TituloSemValor">Nenhum valor Inserido!</string>
+    <string name="MensagemSemValor">Por favor, insira uma quantindade de Bitcoin para conversão!</string>
 
     <!-- Caso o valor inserido seja um ponto -->
     <string name="TituloPonto">Valor Invalido</string>
-    <string name="MensagemPonto">O valor digitado não corresponde a um numero</string>
+    <string name="MensagemPonto">O valor digitado não corresponde a um número!</string>
 
     <!-- AdMob ad unit IDs -->
     <string name="banner_TelaPrincipal">ca-app-pub-8594233121600137/9341936200</string>
@@ -36,4 +36,5 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cripto_moedas">Cripto Moedas</string>
 </resources>

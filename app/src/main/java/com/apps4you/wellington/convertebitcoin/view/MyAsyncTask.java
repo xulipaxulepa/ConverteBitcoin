@@ -5,13 +5,12 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.apps4you.wellington.convertebitcoin.R;
+import com.apps4you.wellington.convertebitcoin.adapter.CriptoMoedaAdapter;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -38,14 +37,27 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
     Context context;
     String valorparaconverter;
     List<Criptomoeda> moedas = new ArrayList<>();
-    ListView listaDeMoedas;
+    ListView mListaDeMoedas;
     Float resultado;
+    TextView valorInseridoBtc;
+    TextView valorConversaoBtcBrl;
+    TextView valorConversaoBtcUsd;
+
+    String valor;
+
+
 
     //Construtor da classe.
-    public MyAsyncTask(Context context, ListView listView, List<Criptomoeda> moedas){
-        this.listaDeMoedas = listView;
-        this.moedas = moedas;
+    public MyAsyncTask(Context context, TextView valorInseridoBtc, TextView valorConversaoBtcBrl,
+                       TextView valorConversaoBtcUsd,
+                       String valor, List<Criptomoeda> moedas, ListView mListaDeMoedas){
+        this.valorInseridoBtc = valorInseridoBtc;
+        this.valorConversaoBtcBrl = valorConversaoBtcBrl;
+        this.valorConversaoBtcUsd = valorConversaoBtcUsd;
         this.context = context;
+        this.valor = valor;
+        this.mListaDeMoedas = mListaDeMoedas;
+
     }
 
     //Responsavel por carregar o Objeto JSON
@@ -137,8 +149,10 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
                 mJsonObject = (JSONObject) json.get(i);
                 Criptomoeda moeda = new Criptomoeda();
                 moeda.setId(mJsonObject.getString("id"));
+                moeda.setNome(mJsonObject.getString("name"));
                 moeda.setPrice_btc(mJsonObject.getString("price_btc"));
                 moeda.setPrice_usd_unit(mJsonObject.getString("price_usd"));
+                moeda.setVariacao(mJsonObject.getString("percent_change_24h"));
                 resultado = Float.parseFloat(mJsonObject.getString("price_usd"))*Float.parseFloat(valorparaconverter);
                 moeda.setPrice_usd(resultado.toString());
                 moeda.setPrice_brl_unit(mJsonObject.getString("price_brl"));
@@ -161,18 +175,25 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
 
     @SuppressLint("ResourceType")
     public void exibirDados() throws Exception {
-        /*ArrayAdapter<Criptomoeda> adapter;
-        int adapterLayout = android.R.layout.simple_list_item_1;
-
-        // O objeto ArrayAdapter sabe converter listas ou vetores em View
-        adapter = new ArrayAdapter<Criptomoeda>(context, adapterLayout, this.moedas);
+//        ArrayAdapter<Criptomoeda> adapter;
+//        int adapterLayout = android.R.layout.simple_list_item_1;
+//
+//        // O objeto ArrayAdapter sabe converter listas ou vetores em View
+//        adapter = new ArrayAdapter<Criptomoeda>(context, adapterLayout, this.moedas);
 
         // Associacao do Adapter a ListView
-        this.listaDeMoedas.setAdapter(adapter);*/
+        this.mListaDeMoedas.setAdapter(new CriptoMoedaAdapter(context, this.moedas));
+
         Criptomoeda cripto = moedas.get(0);
         new AlertDialog.Builder(context)
                 .setTitle(R.string.TituloConversão)
                 .setMessage(context.getString(R.string.MensagemConversão)+" "+cripto.getPrice_brl())
                 .setPositiveButton("OK", null).show();
+
+        this.valorInseridoBtc.setText(valor);
+        this.valorConversaoBtcBrl.setText(cripto.getPrice_brl());
+        this.valorConversaoBtcUsd.setText(cripto.getPrice_usd());
+
     }
+
 }

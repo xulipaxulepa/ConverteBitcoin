@@ -8,14 +8,14 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
             android:title="Home" />
+        <!--<item-->
+            <!--android:id="@+id/nav_conversion"-->
+            <!--android:icon="@drawable/ic_compare_arrows_black_24dp"-->
+            <!--android:title="Conversion" />-->
         <item
-            android:id="@+id/nav_conversion"
-            android:icon="@drawable/ic_compare_arrows_black_24dp"
-            android:title="Conversion" />
-        <item
-            android:id="@+id/nav_cotacao"
+            android:id="@+id/nav_Criptomoedas"
             android:icon="@drawable/ic_monetization_on_black_24dp"
-            android:title="Cotação" />
+            android:title="Criptomoedas" />
         <item
             android:id="@+id/nav_share"
             android:icon="@drawable/ic_menu_share"
