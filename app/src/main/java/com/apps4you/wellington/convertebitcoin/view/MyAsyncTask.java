@@ -151,13 +151,13 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
                 moeda.setId(mJsonObject.getString("id"));
                 moeda.setNome(mJsonObject.getString("name"));
                 moeda.setPrice_btc(mJsonObject.getString("price_btc"));
-                moeda.setPrice_usd_unit(mJsonObject.getString("price_usd"));
+                moeda.setPrice_usd_unit(String.format(mJsonObject.getString("price_usd"), "%.2f"));
                 moeda.setVariacao(mJsonObject.getString("percent_change_24h"));
                 resultado = Float.parseFloat(mJsonObject.getString("price_usd"))*Float.parseFloat(valorparaconverter);
-                moeda.setPrice_usd(resultado.toString());
-                moeda.setPrice_brl_unit(mJsonObject.getString("price_brl"));
+                moeda.setPrice_usd(String.format(resultado.toString(), "%.2f"));
+                moeda.setPrice_brl_unit(String.format(mJsonObject.getString("price_brl"), "%.2f"));
                 resultado = Float.parseFloat(mJsonObject.getString("price_brl"))*Float.parseFloat(valorparaconverter);
-                moeda.setPrice_brl(resultado.toString());
+                moeda.setPrice_brl(String.format(resultado.toString(), "%.2f"));
                 this.moedas.add(moeda);
             }
         } catch (JSONException e) {

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Converte Bitcoin 2.0.iml" filepath="$PROJECT_DIR$/Converte Bitcoin 2.0.iml" />
+      <module fileurl="file://C:\convertebitcoin\Converte Bitcoin 2.0.iml" filepath="C:\convertebitcoin\Converte Bitcoin 2.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/convertebitcoin.iml" filepath="$PROJECT_DIR$/convertebitcoin.iml" />
     </modules>
   </component>
 </project>
