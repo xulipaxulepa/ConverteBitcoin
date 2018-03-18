@@ -1,7 +1,7 @@
 <resources>
     <!-- Tela inicial do App -->
     <string name="app_name">Converte Bitcoin</string>
-    <string name="mensagem">Insira um valor em BitCoin</string>
+    <string name="mensagem">Insira um valor em Bitcoin</string>
 
     <!-- Enquanto converte -->
     <string name="TituloEspera">Convertendo</string>

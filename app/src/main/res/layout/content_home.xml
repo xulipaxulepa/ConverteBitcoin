@@ -89,7 +89,6 @@
                 android:layout_weight="1"
                 android:text="Última Conversão"
                 android:textAlignment="center"
-                android:textSize="18sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -106,9 +105,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="BTC"
+                android:text="Bitcoin"
                 android:textAlignment="center"
-                android:textSize="18sp"
                 android:textStyle="bold"
                 android:visibility="visible" />
 
@@ -117,9 +115,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="BRL"
+                android:text="Real"
                 android:textAlignment="center"
-                android:textSize="18sp"
                 android:textStyle="bold"
                 android:visibility="visible" />
 
@@ -128,9 +125,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="USD"
+                android:text="Dólar"
                 android:textAlignment="center"
-                android:textSize="18sp"
                 android:textStyle="bold"
                 android:visibility="visible" />
         </LinearLayout>
@@ -148,7 +144,6 @@
                 android:layout_weight="1"
                 android:text="00"
                 android:textAlignment="center"
-                android:textSize="18sp"
                 android:visibility="visible" />
 
             <TextView
@@ -158,7 +153,6 @@
                 android:layout_weight="1"
                 android:text="00"
                 android:textAlignment="center"
-                android:textSize="18sp"
                 android:visibility="visible" />
 
             <TextView
@@ -168,7 +162,6 @@
                 android:layout_weight="1"
                 android:text="00"
                 android:textAlignment="center"
-                android:textSize="18sp"
                 android:visibility="visible" />
         </LinearLayout>
 
@@ -179,7 +172,6 @@
             android:layout_marginTop="10dp"
             android:text="Mercado de Criptomoedas"
             android:textAlignment="center"
-            android:textSize="18sp"
             android:textStyle="bold"
             android:theme="@style/AppTheme" />
 

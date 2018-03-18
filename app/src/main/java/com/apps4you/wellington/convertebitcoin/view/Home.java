@@ -126,6 +126,8 @@ public class Home extends AppCompatActivity
         if (id == R.id.nav_home) {
 
         } else if (id == R.id.nav_share) {
+            Intent intent= new Intent(this, ShareActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_settings) {
 
