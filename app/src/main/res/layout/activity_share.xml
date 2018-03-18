@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.apps4you.wellington.convertebitcoin.view.Home">
+    tools:context="com.apps4you.wellington.convertebitcoin.view.ShareActivity"
+    android:orientation="vertical">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,9 +22,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include
-        android:id="@+id/include"
-        layout="@layout/content_home" />
+    <include layout="@layout/content_share" />
 
     <!--<android.support.design.widget.FloatingActionButton-->
         <!--android:id="@+id/fab"-->
@@ -31,8 +30,6 @@
         <!--android:layout_height="wrap_content"-->
         <!--android:layout_gravity="bottom|end"-->
         <!--android:layout_margin="@dimen/fab_margin"-->
-        <!--app:layout_anchor="@+id/include"-->
-        <!--app:layout_anchorGravity="right|top"-->
-        <!--app:srcCompat="@android:drawable/ic_search_category_default" />-->
+        <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
 
-</android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

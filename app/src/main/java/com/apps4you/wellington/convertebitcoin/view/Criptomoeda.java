@@ -3,6 +3,8 @@ package com.apps4you.wellington.convertebitcoin.view;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import com.apps4you.wellington.convertebitcoin.R;
+
 import java.io.Serializable;
 
 /**
@@ -90,4 +92,16 @@ public class Criptomoeda {
     }
 
 
+    public int getImagen(int position){
+        switch (position){
+            case 0:
+                return(R.mipmap.bitcoin);
+            case 1:
+                return(R.mipmap.ethereum);
+            case 2:
+                return(R.mipmap.ripple);
+            default:
+                return (R.mipmap.ic_launcher);
+        }
+    }
 }

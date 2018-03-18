@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.apps4you.wellington.convertebitcoin.R;
@@ -56,17 +57,25 @@ public class CriptoMoedaAdapter extends BaseAdapter {
         txtNome.setText(criptomoeda.getNome());
 
         TextView txtPrecobtc = (TextView)layout.findViewById(R.id.textViewValorBtc);
-        txtPrecobtc.setText(criptomoeda.getPrice_btc());
+        double valorbtc = Double.parseDouble(criptomoeda.getPrice_btc());
+        txtPrecobtc.setText(String.format("%.2f", valorbtc));
 
         TextView txtvwbrl = (TextView)layout.findViewById(R.id.textViewValorBrl);
-        txtvwbrl.setText(criptomoeda.getPrice_brl_unit());
+        double valorbrlunit = Double.parseDouble(criptomoeda.getPrice_brl_unit());
+        txtvwbrl.setText(String.format("%.2f",valorbrlunit));
 
 
         TextView txtvwusd = (TextView)layout.findViewById(R.id.textViewValorUsd);
-        txtvwusd.setText(criptomoeda.getPrice_usd_unit());
+        double valorusdunit = Double.parseDouble(criptomoeda.getPrice_usd_unit());
+        txtvwusd.setText(String.format("%.2f",valorusdunit));
 
         TextView txtvwbtc = (TextView)layout.findViewById(R.id.textViewValorPercent);
-        txtvwbtc.setText(criptomoeda.getVariacao());
+        double valorvariacao = Double.parseDouble(criptomoeda.getVariacao());
+        txtvwbtc.setText(String.format("%.2f",valorvariacao));
+
+
+        ImageView imageView = (ImageView)layout.findViewById(R.id.imageViewCriptoMoeda);
+        imageView.setImageResource(criptomoeda.getImagen(position));
 
         return layout;
     }

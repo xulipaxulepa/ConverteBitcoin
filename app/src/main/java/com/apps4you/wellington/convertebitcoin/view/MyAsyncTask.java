@@ -20,9 +20,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -145,7 +148,7 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
 
         try {
             json = new JSONArray(result);
-            for (int i=0; i < json.length(); i++) {
+            for (int i=0; i <3; i++) {
                 mJsonObject = (JSONObject) json.get(i);
                 Criptomoeda moeda = new Criptomoeda();
                 moeda.setId(mJsonObject.getString("id"));
@@ -175,24 +178,24 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
 
     @SuppressLint("ResourceType")
     public void exibirDados() throws Exception {
-//        ArrayAdapter<Criptomoeda> adapter;
-//        int adapterLayout = android.R.layout.simple_list_item_1;
-//
-//        // O objeto ArrayAdapter sabe converter listas ou vetores em View
-//        adapter = new ArrayAdapter<Criptomoeda>(context, adapterLayout, this.moedas);
 
         // Associacao do Adapter a ListView
         this.mListaDeMoedas.setAdapter(new CriptoMoedaAdapter(context, this.moedas));
 
+
         Criptomoeda cripto = moedas.get(0);
+        double brl = Double.parseDouble(cripto.getPrice_brl());
+        double usd = Double.parseDouble(cripto.getPrice_usd());
+
         new AlertDialog.Builder(context)
                 .setTitle(R.string.TituloConversão)
-                .setMessage(context.getString(R.string.MensagemConversão)+" "+cripto.getPrice_brl())
+                .setMessage("Atualmente "+valor+" Bitcoins = R$"+" "+String.format("%.2f", brl)+" Reais!")
                 .setPositiveButton("OK", null).show();
 
         this.valorInseridoBtc.setText(valor);
-        this.valorConversaoBtcBrl.setText(cripto.getPrice_brl());
-        this.valorConversaoBtcUsd.setText(cripto.getPrice_usd());
+
+        this.valorConversaoBtcBrl.setText(String.format("%.2f", brl));
+        this.valorConversaoBtcUsd.setText(String.format("%.2f", usd));
 
     }
 

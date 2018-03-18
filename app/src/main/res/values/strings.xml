@@ -9,7 +9,7 @@
 
     <!-- Dialog de conversão -->
     <string name="TituloConversão">Conversão Feita!</string>
-    <string name="MensagemConversão">O valor do Bitcoin inserido em BRL(R$) é:</string>
+    <string name="MensagemConversão">O valor do Bitcoin inserido em Real(R$) é:</string>
 
     <!-- Caso não haja conexão -->
     <string name="TituloSemConexão">Sem conexão!</string>
@@ -37,4 +37,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_cripto_moedas">Cripto Moedas</string>
+
+
+    <!--Compatilhamento com facebook-->
+    <string name="title_activity_share">Share</string>
+    <string name="twtr">Twitter</string>
+    <string name="face">Facebook</string>
+    <string name="tituloShare">Compartilhar via</string>
+    <!--<string name="facebook_app_id"></string>-->
 </resources>
