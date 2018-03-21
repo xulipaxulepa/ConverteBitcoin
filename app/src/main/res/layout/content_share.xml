@@ -68,6 +68,7 @@
             android:layout_weight="1"
             android:text="@string/face"
             android:textAllCaps="false"
+            android:onClick="shareOnFacebook"
             android:textColor="@android:color/black"
             tools:layout_editor_absoluteX="84dp"
             tools:layout_editor_absoluteY="176dp" />
@@ -80,9 +81,11 @@
             android:layout_weight="1"
             android:text="@string/twtr"
             android:textAllCaps="false"
+            android:onClick="shareOnTwitter"
             android:textColor="@android:color/black"
             tools:layout_editor_absoluteX="241dp"
-            tools:layout_editor_absoluteY="176dp" />
+            tools:layout_editor_absoluteY="176dp"
+            tools:ignore="OnClick" />
     </LinearLayout>
 
 </LinearLayout>

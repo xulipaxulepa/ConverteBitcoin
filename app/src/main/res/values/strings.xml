@@ -27,6 +27,12 @@
     <string name="banner_TelaPrincipal">ca-app-pub-8594233121600137/9341936200</string>
     <string name="ad_TelaAd">ca-app-pub-8594233121600137/5535041801</string>
 
+    <!-- Tweet -->
+    <string name="Tweet">Estou aprendendo sobre criptomoedas com o Converte Bitcoin</string>
+
+    <!-- FaceBook -->
+    <string name="facebook_app_id">217034842366715</string>
+
     <!-- Navigation -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -44,5 +50,5 @@
     <string name="twtr">Twitter</string>
     <string name="face">Facebook</string>
     <string name="tituloShare">Compartilhar via</string>
-    <!--<string name="facebook_app_id"></string>-->
+
 </resources>

@@ -3,6 +3,7 @@ package com.apps4you.wellington.convertebitcoin.view;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v7.app.AlertDialog;
@@ -14,6 +15,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -120,6 +122,7 @@ public class Home extends AppCompatActivity
         // Handle navigation view item clicks here.
         // Create a new fragment and specify the fragment to show based on nav item clicked
 
+        this.escondeTeclado();
 
         int id = menuItem.getItemId();
 
@@ -144,7 +147,20 @@ public class Home extends AppCompatActivity
 
     }
 
+
+
+    public void escondeTeclado(){
+        //Faz o teclado virtual sumir.
+        InputMethodManager inputManager = (InputMethodManager)
+                getSystemService(Context.INPUT_METHOD_SERVICE);
+
+        inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
+                InputMethodManager.HIDE_NOT_ALWAYS);
+    }
+
     public void Converter(View view) {
+       this.escondeTeclado();
+
         //Pega o valor digitado pelo usuário.
         EditText valorparaconverter = (EditText) this.findViewById(R.id.editTextValorConversion);
         List<Criptomoeda> moedas;

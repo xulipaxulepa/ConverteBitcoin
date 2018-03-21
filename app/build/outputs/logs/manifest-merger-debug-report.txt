@@ -1,0 +1,1050 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:2:1-46:12
+MERGED from [com.facebook.android:facebook-share:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-share-4.31.0.aar\7af6ee2fbcbd4dc1e817b86fedf9e882\AndroidManifest.xml:21:1-31:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ff9d2072dbdf37792dc7169fb20d8c4c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:21:1-36:12
+MERGED from [com.google.android.gms:play-services:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-11.8.0.aar\c65b5dabc65065138efc4adba08c564b\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-cast:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.8.0.aar\c2a927bf6900f6d016638bd56d244462\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\f10069cdcb5336acc7afac83c6c83086\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\458148ef034ced63beb4177ed7f6cbde\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\14b9ed9b873b7a5bcfefc93a4c7cc908\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\f699c54bfe845cb758f0a39ffacb7844\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\e2b9f5d20cf1a01799b0f88a828452e7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-tagmanager:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-11.8.0.aar\5e71aa4fc71cdfa9956076c188914db9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.8.0.aar\903d84bd0132dd731c79a10f63fdb9eb\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\437c2dda1602c3ee6e3a8a95855a688a\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\5830522115db45c58b0c97da72fdd2d7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-config:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-config-11.8.0.aar\7cbf038d21029fb761198c7f973d8048\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-awareness:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.8.0.aar\5d3408b99b5a9818e467e34b2c08404c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\4608570106367506e5908032f8c0aefa\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\99c381a8c30d97ba724fa099a0817615\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-fido:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.8.0.aar\c50ea75f0a1633a41a4fbe7b7bf06f88\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.8.0.aar\4f682066190df2ac321fedb97c050e6d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fitness:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.8.0.aar\cbf7eb624e4d22ef293d7c3b03ceeb44\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\6d5dce36fbbb42011a43941833c87e85\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-appindexing:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.8.0.aar\c8830ab653106f218ece4ce3788c06fd\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wallet-11.8.0.aar\d0d16a7e87a939898123a090571fda60\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.8.0.aar\1c9998f29f6e122c80fd70cf2258c9be\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\f12d50073b1de85377bca22a4616083d\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-instantapps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-11.8.0.aar\e5798f8cb0e49595b3619ccbcdad8a25\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\6da626272b39d9b1b4df3c28c7c6688a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\51ede2ca19ffc1d4f5ed1415c8b5bfad\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\dea16dddef982b3885674a59e9dd33b6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-panorama:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.8.0.aar\08afb3970ff850bd9ac415ea61fe8c19\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\6258de29a65f237882826b03a11bf45c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.8.0.aar\1883638ac142ba81c5d0828cbb1808ed\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\4c4057032c50e25850450929312f742e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\36480011139d92119bf9fe519a74b257\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-wearable:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.8.0.aar\7c59ccb05b6c95b963b12862df82b90c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\0003a71d7d0cfeb8047a6ff55ccf88f7\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\e9ecfbbd75db571519e1026e40933ba9\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-11.8.0.aar\6bbb99443bc27f9fbd2976da6b8f3ff4\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.8.0.aar\0e0cd417a1b57f9340b49534f443a21f\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-storage:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.8.0.aar\264b028b78ba87a12d9c5e4e32937cff\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.8.0.aar\42b8c41826883221af3885ce53f98b30\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\3e95315421aa97f041284b8a88759684\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\5551d1fb07ebed7f7e5454a7dd0afef1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\7ca003d74a0df261ef4ed00874b99ae2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\a9b8b5697950c867f572506938c127e0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b4de279cb1ca04970b4a062ca2d47cbe\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-core:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\551325ef24c4d84ecbd1ba309370ac1a\AndroidManifest.xml:21:1-45:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ffcc0e10c0b82301c58c3b0c04285101\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\b493e862e029c0e57cc35a567d1bc982\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\aa15add4da423c6696ba0b6aad3b7c2a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\d03c820994f1bbac68d760c86dcf249a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7b674817c5471edfa8782259a9fd0187\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\5acb76c6ba4f9f403891eeb3a3396e0f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\06fcfe7b505812ace4e25fa83fe3a2e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\36150172b5a29917bd71a333b40d9c56\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\8541b08c4bc8a06b7fd1ab20c5cfd012\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\322d2085ff33aa2014b6397ac911f96b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\3e8b274baab0fe5dba506b1fc68de39f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\3ab7d2035f00a2f706b70c750d6997f0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\fcd1ff528979f94dbc859c90ded79551\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e25a347de566f21915df05731b48ba19\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\f6186afbe5c9058efa61cd7c0a44d1ed\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-analytics-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-license-11.8.0.aar\37f487e480ed6118fa1f835f997a323b\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-license-11.8.0.aar\a5d9462c71d1900683b041444f138e04\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-license-11.8.0.aar\641b01b2e5d2a4498b9934e810a459e6\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\ba2169eaa2932d993e649814909d0e83\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\c7fc726fb37755968bb3753b2c0eb56b\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ce4104b647d86a0d46b0c250c8d589d6\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-license-11.8.0.aar\b1b7f0368476c2cd7d35da1f473969dd\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-license-11.8.0.aar\1c2c9a3ec46db900e940eb34e185e005\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-config-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-config-license-11.8.0.aar\dfabbb4e146f5cd30e163632c50300e0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-awareness-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-awareness-license-11.8.0.aar\715d850c1599626f2fb26658c970d23e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-crash-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-license-11.8.0.aar\0586f259c71276ce613ac69641ae7f36\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.8.0.aar\3931c37b30c8cb7c3eecf4779eabb16f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fido-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fido-license-11.8.0.aar\370a254b05e63564d14f9c90af47f0ba\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\ba680ff06187579e996128b65cb96ec1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.8.0.aar\8564048582c12de5150c161092272ace\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\6ab37028defd53261cf8a3d8fa9325ea\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-license-11.8.0.aar\591fe390562def61a66ea21f7455d653\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\fa293d77ce9969c25e000141e7973554\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\f20fb4e20fdc39c69dfa966da536eaf8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.8.0.aar\9663f75a2b90a6044af4919770b6a672\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.8.0.aar\0bf6aee7f9751a88c3e5053f112002ef\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\46af4f1454925c0c5363ad3fb81d66bc\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fitness-license-11.8.0.aar\614def223d5d36f100e59eeffae2fa51\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.8.0.aar\e4ab0c21d947cd4d298a2d4a78d00015\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\eff97e4a2908c331db257834f457a0e9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-appindexing-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-license-11.8.0.aar\3ab2cabbb5b9b9051f8a54502caa3cbd\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.8.0.aar\57f2e455a718f6e4011ef4ee8f2db7a6\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\1092a1922bf93fbd6005cf777e42c8de\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-license-11.8.0.aar\566229f22241ba830ffa975dc86d4828\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\cab636fc7741809f9dd9023a11194318\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\686e8f500807c6661dcb4ba5fa43e3a5\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\d0b12c6e82cd54353730f4760e3f1326\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\5b5f1f885b255502f31da8fde3634f00\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-nearby-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.8.0.aar\3e71740c9d79036263d201c7a71cac19\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-panorama-license-11.8.0.aar\7cf89824f9a3b5830955fa2bc726c49c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.8.0.aar\53a7ec9cdc129ecebb545a9b8779009d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-plus-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.8.0.aar\8bf8445f1c23bb87618477e6054d4bd2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-license-11.8.0.aar\84e6a31af61a3ed3b8e282b498011b7d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-11.8.0.aar\5f313bbf484a71334eeb66e9b73511e7\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-license-11.8.0.aar\e7a736c2c6f08ddbeae750a5f4630694\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-11.8.0.aar\91271a4bfb33fd84ceb779097e27c565\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\3c2aa6a345f80000c901637e30f60d69\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\298bca9daa996b8d9807f66ec4ace794\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\eb3b2294c30205e94745bee5999bceae\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wallet-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.8.0.aar\9fd862bdb10ece3d8bc94b60b3086f67\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wearable-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.8.0.aar\83111ad82555863e36bb5c763522d42c\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4a1c1de811d65775de4ffa5264ffc053\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:3:5-54
+		INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\6d5dce36fbbb42011a43941833c87e85\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\6d5dce36fbbb42011a43941833c87e85\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\f12d50073b1de85377bca22a4616083d\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\f12d50073b1de85377bca22a4616083d\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\e9ecfbbd75db571519e1026e40933ba9\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\e9ecfbbd75db571519e1026e40933ba9\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\dea16dddef982b3885674a59e9dd33b6\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\dea16dddef982b3885674a59e9dd33b6\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:9:5-44:19
+MERGED from [com.facebook.android:facebook-share:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-share-4.31.0.aar\7af6ee2fbcbd4dc1e817b86fedf9e882\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-share-4.31.0.aar\7af6ee2fbcbd4dc1e817b86fedf9e882\AndroidManifest.xml:28:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ff9d2072dbdf37792dc7169fb20d8c4c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ff9d2072dbdf37792dc7169fb20d8c4c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.android.gms:play-services:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-11.8.0.aar\c65b5dabc65065138efc4adba08c564b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-11.8.0.aar\c65b5dabc65065138efc4adba08c564b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-cast:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.8.0.aar\c2a927bf6900f6d016638bd56d244462\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.8.0.aar\c2a927bf6900f6d016638bd56d244462\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\f10069cdcb5336acc7afac83c6c83086\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\f10069cdcb5336acc7afac83c6c83086\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\14b9ed9b873b7a5bcfefc93a4c7cc908\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\14b9ed9b873b7a5bcfefc93a4c7cc908\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\e2b9f5d20cf1a01799b0f88a828452e7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\e2b9f5d20cf1a01799b0f88a828452e7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.8.0.aar\903d84bd0132dd731c79a10f63fdb9eb\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.8.0.aar\903d84bd0132dd731c79a10f63fdb9eb\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-config:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-config-11.8.0.aar\7cbf038d21029fb761198c7f973d8048\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-config-11.8.0.aar\7cbf038d21029fb761198c7f973d8048\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.8.0.aar\5d3408b99b5a9818e467e34b2c08404c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-awareness:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.8.0.aar\5d3408b99b5a9818e467e34b2c08404c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\4608570106367506e5908032f8c0aefa\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\4608570106367506e5908032f8c0aefa\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\99c381a8c30d97ba724fa099a0817615\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\99c381a8c30d97ba724fa099a0817615\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fido:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.8.0.aar\c50ea75f0a1633a41a4fbe7b7bf06f88\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.8.0.aar\c50ea75f0a1633a41a4fbe7b7bf06f88\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.8.0.aar\4f682066190df2ac321fedb97c050e6d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.8.0.aar\4f682066190df2ac321fedb97c050e6d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-fitness:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.8.0.aar\cbf7eb624e4d22ef293d7c3b03ceeb44\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.8.0.aar\cbf7eb624e4d22ef293d7c3b03ceeb44\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\6d5dce36fbbb42011a43941833c87e85\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\6d5dce36fbbb42011a43941833c87e85\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-appindexing:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.8.0.aar\c8830ab653106f218ece4ce3788c06fd\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.8.0.aar\c8830ab653106f218ece4ce3788c06fd\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.8.0.aar\1c9998f29f6e122c80fd70cf2258c9be\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.8.0.aar\1c9998f29f6e122c80fd70cf2258c9be\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\f12d50073b1de85377bca22a4616083d\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\f12d50073b1de85377bca22a4616083d\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\6da626272b39d9b1b4df3c28c7c6688a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\6da626272b39d9b1b4df3c28c7c6688a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\51ede2ca19ffc1d4f5ed1415c8b5bfad\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\51ede2ca19ffc1d4f5ed1415c8b5bfad\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\dea16dddef982b3885674a59e9dd33b6\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\dea16dddef982b3885674a59e9dd33b6\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-panorama:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.8.0.aar\08afb3970ff850bd9ac415ea61fe8c19\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.8.0.aar\08afb3970ff850bd9ac415ea61fe8c19\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\6258de29a65f237882826b03a11bf45c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\6258de29a65f237882826b03a11bf45c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.8.0.aar\1883638ac142ba81c5d0828cbb1808ed\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.8.0.aar\1883638ac142ba81c5d0828cbb1808ed\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\4c4057032c50e25850450929312f742e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\4c4057032c50e25850450929312f742e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\36480011139d92119bf9fe519a74b257\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\36480011139d92119bf9fe519a74b257\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-wearable:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.8.0.aar\7c59ccb05b6c95b963b12862df82b90c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.8.0.aar\7c59ccb05b6c95b963b12862df82b90c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\0003a71d7d0cfeb8047a6ff55ccf88f7\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\0003a71d7d0cfeb8047a6ff55ccf88f7\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\e9ecfbbd75db571519e1026e40933ba9\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\e9ecfbbd75db571519e1026e40933ba9\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\3e95315421aa97f041284b8a88759684\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\3e95315421aa97f041284b8a88759684\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\5551d1fb07ebed7f7e5454a7dd0afef1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\5551d1fb07ebed7f7e5454a7dd0afef1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\7ca003d74a0df261ef4ed00874b99ae2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\7ca003d74a0df261ef4ed00874b99ae2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b4de279cb1ca04970b4a062ca2d47cbe\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b4de279cb1ca04970b4a062ca2d47cbe\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-core:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\551325ef24c4d84ecbd1ba309370ac1a\AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-core:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\551325ef24c4d84ecbd1ba309370ac1a\AndroidManifest.xml:28:5-43:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ffcc0e10c0b82301c58c3b0c04285101\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ffcc0e10c0b82301c58c3b0c04285101\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\d03c820994f1bbac68d760c86dcf249a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\d03c820994f1bbac68d760c86dcf249a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\3ab7d2035f00a2f706b70c750d6997f0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\3ab7d2035f00a2f706b70c750d6997f0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\fcd1ff528979f94dbc859c90ded79551\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\fcd1ff528979f94dbc859c90ded79551\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e25a347de566f21915df05731b48ba19\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e25a347de566f21915df05731b48ba19\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\f6186afbe5c9058efa61cd7c0a44d1ed\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\f6186afbe5c9058efa61cd7c0a44d1ed\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-license-11.8.0.aar\37f487e480ed6118fa1f835f997a323b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-license-11.8.0.aar\37f487e480ed6118fa1f835f997a323b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-license-11.8.0.aar\a5d9462c71d1900683b041444f138e04\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-license-11.8.0.aar\a5d9462c71d1900683b041444f138e04\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-license-11.8.0.aar\641b01b2e5d2a4498b9934e810a459e6\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-license-11.8.0.aar\641b01b2e5d2a4498b9934e810a459e6\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\ba2169eaa2932d993e649814909d0e83\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\ba2169eaa2932d993e649814909d0e83\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\c7fc726fb37755968bb3753b2c0eb56b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\c7fc726fb37755968bb3753b2c0eb56b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ce4104b647d86a0d46b0c250c8d589d6\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ce4104b647d86a0d46b0c250c8d589d6\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-license-11.8.0.aar\b1b7f0368476c2cd7d35da1f473969dd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-license-11.8.0.aar\b1b7f0368476c2cd7d35da1f473969dd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-license-11.8.0.aar\1c2c9a3ec46db900e940eb34e185e005\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-license-11.8.0.aar\1c2c9a3ec46db900e940eb34e185e005\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-config-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-config-license-11.8.0.aar\dfabbb4e146f5cd30e163632c50300e0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-config-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-config-license-11.8.0.aar\dfabbb4e146f5cd30e163632c50300e0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-awareness-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-awareness-license-11.8.0.aar\715d850c1599626f2fb26658c970d23e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-awareness-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-awareness-license-11.8.0.aar\715d850c1599626f2fb26658c970d23e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-crash-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-license-11.8.0.aar\0586f259c71276ce613ac69641ae7f36\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-crash-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-license-11.8.0.aar\0586f259c71276ce613ac69641ae7f36\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.8.0.aar\3931c37b30c8cb7c3eecf4779eabb16f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.8.0.aar\3931c37b30c8cb7c3eecf4779eabb16f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fido-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fido-license-11.8.0.aar\370a254b05e63564d14f9c90af47f0ba\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fido-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fido-license-11.8.0.aar\370a254b05e63564d14f9c90af47f0ba\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\ba680ff06187579e996128b65cb96ec1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\ba680ff06187579e996128b65cb96ec1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.8.0.aar\8564048582c12de5150c161092272ace\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.8.0.aar\8564048582c12de5150c161092272ace\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\6ab37028defd53261cf8a3d8fa9325ea\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\6ab37028defd53261cf8a3d8fa9325ea\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-license-11.8.0.aar\591fe390562def61a66ea21f7455d653\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-license-11.8.0.aar\591fe390562def61a66ea21f7455d653\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\fa293d77ce9969c25e000141e7973554\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\fa293d77ce9969c25e000141e7973554\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\f20fb4e20fdc39c69dfa966da536eaf8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\f20fb4e20fdc39c69dfa966da536eaf8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.8.0.aar\9663f75a2b90a6044af4919770b6a672\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.8.0.aar\9663f75a2b90a6044af4919770b6a672\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.8.0.aar\0bf6aee7f9751a88c3e5053f112002ef\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.8.0.aar\0bf6aee7f9751a88c3e5053f112002ef\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\46af4f1454925c0c5363ad3fb81d66bc\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\46af4f1454925c0c5363ad3fb81d66bc\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fitness-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fitness-license-11.8.0.aar\614def223d5d36f100e59eeffae2fa51\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fitness-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fitness-license-11.8.0.aar\614def223d5d36f100e59eeffae2fa51\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.8.0.aar\e4ab0c21d947cd4d298a2d4a78d00015\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.8.0.aar\e4ab0c21d947cd4d298a2d4a78d00015\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\eff97e4a2908c331db257834f457a0e9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\eff97e4a2908c331db257834f457a0e9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-appindexing-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-license-11.8.0.aar\3ab2cabbb5b9b9051f8a54502caa3cbd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-appindexing-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-license-11.8.0.aar\3ab2cabbb5b9b9051f8a54502caa3cbd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.8.0.aar\57f2e455a718f6e4011ef4ee8f2db7a6\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.8.0.aar\57f2e455a718f6e4011ef4ee8f2db7a6\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\1092a1922bf93fbd6005cf777e42c8de\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\1092a1922bf93fbd6005cf777e42c8de\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-license-11.8.0.aar\566229f22241ba830ffa975dc86d4828\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-license-11.8.0.aar\566229f22241ba830ffa975dc86d4828\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\cab636fc7741809f9dd9023a11194318\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\cab636fc7741809f9dd9023a11194318\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\686e8f500807c6661dcb4ba5fa43e3a5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\686e8f500807c6661dcb4ba5fa43e3a5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\d0b12c6e82cd54353730f4760e3f1326\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\d0b12c6e82cd54353730f4760e3f1326\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\5b5f1f885b255502f31da8fde3634f00\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\5b5f1f885b255502f31da8fde3634f00\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.8.0.aar\3e71740c9d79036263d201c7a71cac19\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.8.0.aar\3e71740c9d79036263d201c7a71cac19\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-panorama-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-panorama-license-11.8.0.aar\7cf89824f9a3b5830955fa2bc726c49c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-panorama-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-panorama-license-11.8.0.aar\7cf89824f9a3b5830955fa2bc726c49c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.8.0.aar\53a7ec9cdc129ecebb545a9b8779009d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.8.0.aar\53a7ec9cdc129ecebb545a9b8779009d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.8.0.aar\8bf8445f1c23bb87618477e6054d4bd2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.8.0.aar\8bf8445f1c23bb87618477e6054d4bd2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-license-11.8.0.aar\84e6a31af61a3ed3b8e282b498011b7d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-license-11.8.0.aar\84e6a31af61a3ed3b8e282b498011b7d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-11.8.0.aar\5f313bbf484a71334eeb66e9b73511e7\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-11.8.0.aar\5f313bbf484a71334eeb66e9b73511e7\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-license-11.8.0.aar\e7a736c2c6f08ddbeae750a5f4630694\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-license-11.8.0.aar\e7a736c2c6f08ddbeae750a5f4630694\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-11.8.0.aar\91271a4bfb33fd84ceb779097e27c565\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-11.8.0.aar\91271a4bfb33fd84ceb779097e27c565\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\3c2aa6a345f80000c901637e30f60d69\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\3c2aa6a345f80000c901637e30f60d69\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\298bca9daa996b8d9807f66ec4ace794\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\298bca9daa996b8d9807f66ec4ace794\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\eb3b2294c30205e94745bee5999bceae\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\eb3b2294c30205e94745bee5999bceae\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wallet-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.8.0.aar\9fd862bdb10ece3d8bc94b60b3086f67\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wallet-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.8.0.aar\9fd862bdb10ece3d8bc94b60b3086f67\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.8.0.aar\83111ad82555863e36bb5c763522d42c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.8.0.aar\83111ad82555863e36bb5c763522d42c\AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:11:9-49
+	android:allowBackup
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:15:9-40
+provider#com.facebook.FacebookContentProvider
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:17:9-19:38
+	android:authorities
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:17:19-98
+	android:exported
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:18:13-64
+activity#com.apps4you.wellington.convertebitcoin.view.Home
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:21:9-31:20
+	android:screenOrientation
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:24:13-49
+	android:label
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:23:13-45
+	android:theme
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:25:13-56
+	android:name
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:22:13-38
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.apps4you.wellington.convertebitcoin.view.ShareActivity
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:32:9-40:20
+	android:parentActivityName
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:35:13-52
+	android:label
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:34:13-57
+	android:theme
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:36:13-56
+	android:name
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:33:13-47
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:38:17-63
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:42:9-107
+	android:value
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:42:66-105
+	android:name
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml:42:20-65
+uses-sdk
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+MERGED from [com.facebook.android:facebook-share:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-share-4.31.0.aar\7af6ee2fbcbd4dc1e817b86fedf9e882\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-share-4.31.0.aar\7af6ee2fbcbd4dc1e817b86fedf9e882\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ff9d2072dbdf37792dc7169fb20d8c4c\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ff9d2072dbdf37792dc7169fb20d8c4c\AndroidManifest.xml:21:5-23:62
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.gms:play-services:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-11.8.0.aar\c65b5dabc65065138efc4adba08c564b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-11.8.0.aar\c65b5dabc65065138efc4adba08c564b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cast:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.8.0.aar\c2a927bf6900f6d016638bd56d244462\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cast:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.8.0.aar\c2a927bf6900f6d016638bd56d244462\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\f10069cdcb5336acc7afac83c6c83086\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\f10069cdcb5336acc7afac83c6c83086\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\458148ef034ced63beb4177ed7f6cbde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\458148ef034ced63beb4177ed7f6cbde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\14b9ed9b873b7a5bcfefc93a4c7cc908\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\14b9ed9b873b7a5bcfefc93a4c7cc908\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\f699c54bfe845cb758f0a39ffacb7844\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\f699c54bfe845cb758f0a39ffacb7844\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\e2b9f5d20cf1a01799b0f88a828452e7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\e2b9f5d20cf1a01799b0f88a828452e7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-11.8.0.aar\5e71aa4fc71cdfa9956076c188914db9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-11.8.0.aar\5e71aa4fc71cdfa9956076c188914db9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.8.0.aar\903d84bd0132dd731c79a10f63fdb9eb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.8.0.aar\903d84bd0132dd731c79a10f63fdb9eb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\437c2dda1602c3ee6e3a8a95855a688a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\437c2dda1602c3ee6e3a8a95855a688a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\5830522115db45c58b0c97da72fdd2d7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\5830522115db45c58b0c97da72fdd2d7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-config:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-config-11.8.0.aar\7cbf038d21029fb761198c7f973d8048\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-config-11.8.0.aar\7cbf038d21029fb761198c7f973d8048\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.8.0.aar\5d3408b99b5a9818e467e34b2c08404c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-awareness:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.8.0.aar\5d3408b99b5a9818e467e34b2c08404c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\4608570106367506e5908032f8c0aefa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\4608570106367506e5908032f8c0aefa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\99c381a8c30d97ba724fa099a0817615\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\99c381a8c30d97ba724fa099a0817615\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.8.0.aar\c50ea75f0a1633a41a4fbe7b7bf06f88\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.8.0.aar\c50ea75f0a1633a41a4fbe7b7bf06f88\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.8.0.aar\4f682066190df2ac321fedb97c050e6d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.8.0.aar\4f682066190df2ac321fedb97c050e6d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fitness:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.8.0.aar\cbf7eb624e4d22ef293d7c3b03ceeb44\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.8.0.aar\cbf7eb624e4d22ef293d7c3b03ceeb44\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\6d5dce36fbbb42011a43941833c87e85\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\6d5dce36fbbb42011a43941833c87e85\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.8.0.aar\c8830ab653106f218ece4ce3788c06fd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.8.0.aar\c8830ab653106f218ece4ce3788c06fd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wallet-11.8.0.aar\d0d16a7e87a939898123a090571fda60\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wallet-11.8.0.aar\d0d16a7e87a939898123a090571fda60\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.8.0.aar\1c9998f29f6e122c80fd70cf2258c9be\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.8.0.aar\1c9998f29f6e122c80fd70cf2258c9be\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\f12d50073b1de85377bca22a4616083d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\f12d50073b1de85377bca22a4616083d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-instantapps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-11.8.0.aar\e5798f8cb0e49595b3619ccbcdad8a25\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-instantapps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-11.8.0.aar\e5798f8cb0e49595b3619ccbcdad8a25\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\6da626272b39d9b1b4df3c28c7c6688a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\6da626272b39d9b1b4df3c28c7c6688a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\51ede2ca19ffc1d4f5ed1415c8b5bfad\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\51ede2ca19ffc1d4f5ed1415c8b5bfad\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\dea16dddef982b3885674a59e9dd33b6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\dea16dddef982b3885674a59e9dd33b6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-panorama:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.8.0.aar\08afb3970ff850bd9ac415ea61fe8c19\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-panorama:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.8.0.aar\08afb3970ff850bd9ac415ea61fe8c19\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\6258de29a65f237882826b03a11bf45c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\6258de29a65f237882826b03a11bf45c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.8.0.aar\1883638ac142ba81c5d0828cbb1808ed\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.8.0.aar\1883638ac142ba81c5d0828cbb1808ed\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\4c4057032c50e25850450929312f742e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\4c4057032c50e25850450929312f742e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\36480011139d92119bf9fe519a74b257\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\36480011139d92119bf9fe519a74b257\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-wearable:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.8.0.aar\7c59ccb05b6c95b963b12862df82b90c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.8.0.aar\7c59ccb05b6c95b963b12862df82b90c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\0003a71d7d0cfeb8047a6ff55ccf88f7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\0003a71d7d0cfeb8047a6ff55ccf88f7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\e9ecfbbd75db571519e1026e40933ba9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.8.0.aar\e9ecfbbd75db571519e1026e40933ba9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-11.8.0.aar\6bbb99443bc27f9fbd2976da6b8f3ff4\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-11.8.0.aar\6bbb99443bc27f9fbd2976da6b8f3ff4\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.8.0.aar\0e0cd417a1b57f9340b49534f443a21f\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.8.0.aar\0e0cd417a1b57f9340b49534f443a21f\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.8.0.aar\264b028b78ba87a12d9c5e4e32937cff\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.8.0.aar\264b028b78ba87a12d9c5e4e32937cff\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.8.0.aar\42b8c41826883221af3885ce53f98b30\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.8.0.aar\42b8c41826883221af3885ce53f98b30\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\3e95315421aa97f041284b8a88759684\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\3e95315421aa97f041284b8a88759684\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\5551d1fb07ebed7f7e5454a7dd0afef1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\5551d1fb07ebed7f7e5454a7dd0afef1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\7ca003d74a0df261ef4ed00874b99ae2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\7ca003d74a0df261ef4ed00874b99ae2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\a9b8b5697950c867f572506938c127e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\a9b8b5697950c867f572506938c127e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b4de279cb1ca04970b4a062ca2d47cbe\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b4de279cb1ca04970b4a062ca2d47cbe\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-core:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\551325ef24c4d84ecbd1ba309370ac1a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\551325ef24c4d84ecbd1ba309370ac1a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ffcc0e10c0b82301c58c3b0c04285101\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ffcc0e10c0b82301c58c3b0c04285101\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\b493e862e029c0e57cc35a567d1bc982\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\b493e862e029c0e57cc35a567d1bc982\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\aa15add4da423c6696ba0b6aad3b7c2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\aa15add4da423c6696ba0b6aad3b7c2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\d03c820994f1bbac68d760c86dcf249a\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\d03c820994f1bbac68d760c86dcf249a\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7b674817c5471edfa8782259a9fd0187\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7b674817c5471edfa8782259a9fd0187\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\5acb76c6ba4f9f403891eeb3a3396e0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\5acb76c6ba4f9f403891eeb3a3396e0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\06fcfe7b505812ace4e25fa83fe3a2e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\06fcfe7b505812ace4e25fa83fe3a2e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\36150172b5a29917bd71a333b40d9c56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\36150172b5a29917bd71a333b40d9c56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\8541b08c4bc8a06b7fd1ab20c5cfd012\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\8541b08c4bc8a06b7fd1ab20c5cfd012\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\322d2085ff33aa2014b6397ac911f96b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\322d2085ff33aa2014b6397ac911f96b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\3e8b274baab0fe5dba506b1fc68de39f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\3e8b274baab0fe5dba506b1fc68de39f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\3ab7d2035f00a2f706b70c750d6997f0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\3ab7d2035f00a2f706b70c750d6997f0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\fcd1ff528979f94dbc859c90ded79551\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\fcd1ff528979f94dbc859c90ded79551\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e25a347de566f21915df05731b48ba19\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\e25a347de566f21915df05731b48ba19\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\f6186afbe5c9058efa61cd7c0a44d1ed\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\f6186afbe5c9058efa61cd7c0a44d1ed\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-license-11.8.0.aar\37f487e480ed6118fa1f835f997a323b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-license-11.8.0.aar\37f487e480ed6118fa1f835f997a323b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-license-11.8.0.aar\a5d9462c71d1900683b041444f138e04\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-license-11.8.0.aar\a5d9462c71d1900683b041444f138e04\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-license-11.8.0.aar\641b01b2e5d2a4498b9934e810a459e6\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-license-11.8.0.aar\641b01b2e5d2a4498b9934e810a459e6\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\ba2169eaa2932d993e649814909d0e83\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\ba2169eaa2932d993e649814909d0e83\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\c7fc726fb37755968bb3753b2c0eb56b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\c7fc726fb37755968bb3753b2c0eb56b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ce4104b647d86a0d46b0c250c8d589d6\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ce4104b647d86a0d46b0c250c8d589d6\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-license-11.8.0.aar\b1b7f0368476c2cd7d35da1f473969dd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-license-11.8.0.aar\b1b7f0368476c2cd7d35da1f473969dd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-license-11.8.0.aar\1c2c9a3ec46db900e940eb34e185e005\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-license-11.8.0.aar\1c2c9a3ec46db900e940eb34e185e005\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-config-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-config-license-11.8.0.aar\dfabbb4e146f5cd30e163632c50300e0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-config-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-config-license-11.8.0.aar\dfabbb4e146f5cd30e163632c50300e0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-awareness-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-awareness-license-11.8.0.aar\715d850c1599626f2fb26658c970d23e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-awareness-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-awareness-license-11.8.0.aar\715d850c1599626f2fb26658c970d23e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-crash-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-license-11.8.0.aar\0586f259c71276ce613ac69641ae7f36\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-crash-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-crash-license-11.8.0.aar\0586f259c71276ce613ac69641ae7f36\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.8.0.aar\3931c37b30c8cb7c3eecf4779eabb16f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.8.0.aar\3931c37b30c8cb7c3eecf4779eabb16f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fido-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fido-license-11.8.0.aar\370a254b05e63564d14f9c90af47f0ba\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fido-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fido-license-11.8.0.aar\370a254b05e63564d14f9c90af47f0ba\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\ba680ff06187579e996128b65cb96ec1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.8.0.aar\ba680ff06187579e996128b65cb96ec1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.8.0.aar\8564048582c12de5150c161092272ace\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.8.0.aar\8564048582c12de5150c161092272ace\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\6ab37028defd53261cf8a3d8fa9325ea\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.8.0.aar\6ab37028defd53261cf8a3d8fa9325ea\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-license-11.8.0.aar\591fe390562def61a66ea21f7455d653\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-license-11.8.0.aar\591fe390562def61a66ea21f7455d653\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\fa293d77ce9969c25e000141e7973554\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\fa293d77ce9969c25e000141e7973554\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\f20fb4e20fdc39c69dfa966da536eaf8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\f20fb4e20fdc39c69dfa966da536eaf8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.8.0.aar\9663f75a2b90a6044af4919770b6a672\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.8.0.aar\9663f75a2b90a6044af4919770b6a672\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.8.0.aar\0bf6aee7f9751a88c3e5053f112002ef\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.8.0.aar\0bf6aee7f9751a88c3e5053f112002ef\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\46af4f1454925c0c5363ad3fb81d66bc\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\46af4f1454925c0c5363ad3fb81d66bc\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fitness-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fitness-license-11.8.0.aar\614def223d5d36f100e59eeffae2fa51\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fitness-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-fitness-license-11.8.0.aar\614def223d5d36f100e59eeffae2fa51\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.8.0.aar\e4ab0c21d947cd4d298a2d4a78d00015\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.8.0.aar\e4ab0c21d947cd4d298a2d4a78d00015\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\eff97e4a2908c331db257834f457a0e9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\eff97e4a2908c331db257834f457a0e9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-appindexing-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-license-11.8.0.aar\3ab2cabbb5b9b9051f8a54502caa3cbd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-appindexing-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-license-11.8.0.aar\3ab2cabbb5b9b9051f8a54502caa3cbd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.8.0.aar\57f2e455a718f6e4011ef4ee8f2db7a6\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-identity-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.8.0.aar\57f2e455a718f6e4011ef4ee8f2db7a6\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\1092a1922bf93fbd6005cf777e42c8de\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\1092a1922bf93fbd6005cf777e42c8de\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-license-11.8.0.aar\566229f22241ba830ffa975dc86d4828\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-license-11.8.0.aar\566229f22241ba830ffa975dc86d4828\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\cab636fc7741809f9dd9023a11194318\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\cab636fc7741809f9dd9023a11194318\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\686e8f500807c6661dcb4ba5fa43e3a5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\686e8f500807c6661dcb4ba5fa43e3a5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\d0b12c6e82cd54353730f4760e3f1326\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\d0b12c6e82cd54353730f4760e3f1326\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\5b5f1f885b255502f31da8fde3634f00\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\5b5f1f885b255502f31da8fde3634f00\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-nearby-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.8.0.aar\3e71740c9d79036263d201c7a71cac19\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-nearby-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.8.0.aar\3e71740c9d79036263d201c7a71cac19\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-panorama-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-panorama-license-11.8.0.aar\7cf89824f9a3b5830955fa2bc726c49c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-panorama-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-panorama-license-11.8.0.aar\7cf89824f9a3b5830955fa2bc726c49c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.8.0.aar\53a7ec9cdc129ecebb545a9b8779009d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.8.0.aar\53a7ec9cdc129ecebb545a9b8779009d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-plus-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.8.0.aar\8bf8445f1c23bb87618477e6054d4bd2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-plus-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.8.0.aar\8bf8445f1c23bb87618477e6054d4bd2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-license-11.8.0.aar\84e6a31af61a3ed3b8e282b498011b7d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-license-11.8.0.aar\84e6a31af61a3ed3b8e282b498011b7d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-11.8.0.aar\5f313bbf484a71334eeb66e9b73511e7\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-11.8.0.aar\5f313bbf484a71334eeb66e9b73511e7\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-license-11.8.0.aar\e7a736c2c6f08ddbeae750a5f4630694\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-license-11.8.0.aar\e7a736c2c6f08ddbeae750a5f4630694\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-11.8.0.aar\91271a4bfb33fd84ceb779097e27c565\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-11.8.0.aar\91271a4bfb33fd84ceb779097e27c565\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\3c2aa6a345f80000c901637e30f60d69\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\3c2aa6a345f80000c901637e30f60d69\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\298bca9daa996b8d9807f66ec4ace794\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\298bca9daa996b8d9807f66ec4ace794\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\eb3b2294c30205e94745bee5999bceae\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\eb3b2294c30205e94745bee5999bceae\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wallet-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.8.0.aar\9fd862bdb10ece3d8bc94b60b3086f67\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wallet-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.8.0.aar\9fd862bdb10ece3d8bc94b60b3086f67\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wearable-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.8.0.aar\83111ad82555863e36bb5c763522d42c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wearable-license:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.8.0.aar\83111ad82555863e36bb5c763522d42c\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4a1c1de811d65775de4ffa5264ffc053\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4a1c1de811d65775de4ffa5264ffc053\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ff9d2072dbdf37792dc7169fb20d8c4c\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+		ADDED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\convertebitcoin\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ff9d2072dbdf37792dc7169fb20d8c4c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\14b9ed9b873b7a5bcfefc93a4c7cc908\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\14b9ed9b873b7a5bcfefc93a4c7cc908\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ffcc0e10c0b82301c58c3b0c04285101\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\ffcc0e10c0b82301c58c3b0c04285101\AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ff9d2072dbdf37792dc7169fb20d8c4c\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ff9d2072dbdf37792dc7169fb20d8c4c\AndroidManifest.xml:27:13-51
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\65424a688b01c07530b42e6e435974f7\AndroidManifest.xml:33:19-68
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:8:9-100
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:8:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:10:9-104
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:10:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:11:9-93
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.8.0.aar\fcf6f74ae179e87995b6d660f91e1664\AndroidManifest.xml:11:18-90
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\3a1825285562e29efa4c789719937bab\AndroidManifest.xml:30:13-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.8.0.aar\feeecee765a3f901754c60f010d6dcc4\AndroidManifest.xml:27:5-68
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:27:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:31:13-78
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:36:9-39:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:37:13-77
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:40:9-44:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:43:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:44:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.8.0.aar\e049c1ccf7f5ce803c43fad862986995\AndroidManifest.xml:41:13-80
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:25:9-34:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:27:13-36
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:26:13-76
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:29:13-33:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:30:17-90
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:30:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.8.0.aar\3fb6ccc4b9f54005cbd92ce7014d3ca9\AndroidManifest.xml:32:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\9814821648bb10e8d3b0cdd9f319b1ce\AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.8.0.aar\005999b21fa6c4ad8ded16f8489f9fbf\AndroidManifest.xml:24:13-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\6d5dce36fbbb42011a43941833c87e85\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\f12d50073b1de85377bca22a4616083d\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\f12d50073b1de85377bca22a4616083d\AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\6d5dce36fbbb42011a43941833c87e85\AndroidManifest.xml:23:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\ea926a96141822648eb65eed2e505600\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\0003a71d7d0cfeb8047a6ff55ccf88f7\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\0003a71d7d0cfeb8047a6ff55ccf88f7\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\0003a71d7d0cfeb8047a6ff55ccf88f7\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\0003a71d7d0cfeb8047a6ff55ccf88f7\AndroidManifest.xml:24:13-79
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:29:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\70d5923a0a2a1ff65a70087bbccee8d6\AndroidManifest.xml:32:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:27:9-30:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:29:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:28:13-79
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:32:9-44:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:35:13-37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:33:13-87
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:36:13-43:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:37:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:37:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:39:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:42:17-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.8.0.aar\8d4450d4dce5bda08e005e6a3630a0c3\AndroidManifest.xml:42:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:34:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\5cddfa84976043c26b4de12412a97ab5\AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\2d5b1924c278749b4892b043998abc50\AndroidManifest.xml:48:13-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:29:9-63
+permission#com.apps4you.wellington.convertebitcoin.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:32:22-76
+uses-permission#com.apps4you.wellington.convertebitcoin.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:36:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:39:13-43:29
+intent-filter#com.apps4you.wellington.convertebitcoin+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:42:27-58
+category#com.apps4you.wellington.convertebitcoin
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:51:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\5b9275c9d1895444e6803e3ec99e4b75\AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\3e95315421aa97f041284b8a88759684\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\3e95315421aa97f041284b8a88759684\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\3e95315421aa97f041284b8a88759684\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\3e95315421aa97f041284b8a88759684\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\3e95315421aa97f041284b8a88759684\AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\7ca003d74a0df261ef4ed00874b99ae2\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\7ca003d74a0df261ef4ed00874b99ae2\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\7ca003d74a0df261ef4ed00874b99ae2\AndroidManifest.xml:24:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\551325ef24c4d84ecbd1ba309370ac1a\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\551325ef24c4d84ecbd1ba309370ac1a\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\551325ef24c4d84ecbd1ba309370ac1a\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.31.0] C:\Users\xulipasoftworks\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\551325ef24c4d84ecbd1ba309370ac1a\AndroidManifest.xml:40:13-70
