@@ -56,15 +56,6 @@ public class Home extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
-
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
@@ -122,8 +113,6 @@ public class Home extends AppCompatActivity
         // Handle navigation view item clicks here.
         // Create a new fragment and specify the fragment to show based on nav item clicked
 
-        this.escondeTeclado();
-
         int id = menuItem.getItemId();
 
         if (id == R.id.nav_home) {
@@ -132,8 +121,8 @@ public class Home extends AppCompatActivity
             Intent intent= new Intent(this, ShareActivity.class);
             startActivity(intent);
 
-        } else if (id == R.id.nav_settings) {
-
+        } else if (id == R.id.nav_exit) {
+            this.finish();
         }
 
         // Highlight the selected item has been done by NavigationView

@@ -7,23 +7,15 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
-            android:title="Home" />
-        <!--<item-->
-            <!--android:id="@+id/nav_conversion"-->
-            <!--android:icon="@drawable/ic_compare_arrows_black_24dp"-->
-            <!--android:title="Conversion" />-->
-        <!--<item-->
-            <!--android:id="@+id/nav_Criptomoedas"-->
-            <!--android:icon="@drawable/ic_monetization_on_black_24dp"-->
-            <!--android:title="Criptomoedas" />-->
+            android:title="@string/title_item_menu_home" />
         <item
             android:id="@+id/nav_share"
             android:icon="@drawable/ic_menu_share"
-            android:title="Share" />
+            android:title="@string/title_item_menu_compartilhar" />
         <item
-            android:id="@+id/nav_settings"
-            android:icon="@drawable/ic_settings_black_24dp"
-            android:title="Settings" />
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_dialog_close_light"
+            android:title="Sair" />
     </group>
 
 </menu>

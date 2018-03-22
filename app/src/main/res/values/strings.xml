@@ -1,7 +1,25 @@
 <resources>
-    <!-- Tela inicial do App -->
+    <!-- Tela inicial do App (Home) -->
     <string name="app_name">Converte Bitcoin</string>
-    <string name="mensagem">Insira um valor em Bitcoin</string>
+    <string name="mensagem_editText">Insira um valor em Bitcoin</string>
+
+    <string name="textView_title_nav_header_home">Converte Bitcoin</string>
+    <string name="textView_subTitle_nav_header_home">Menu</string>
+    <string name="title_item_menu_home">Home</string>
+    <string name="title_item_menu_compartilhar">Compartilhar</string>
+    <string name="title_item_menu_sair">Sair</string>
+    <string name="title_button_converter">Converter</string>
+    <string name="textView_title_ultima_conversao">Última Conversão</string>
+    <string name="textView_title_bitcoin">Bitcoin</string>
+    <string name="textView_title_real">Real</string>
+    <string name="textView_title_dolar">Dólar</string>
+    <string name="textView_title_mercado_moedas">Mercado de Criptomoedas</string>
+
+
+
+    <!--Segunda tela (Compartilhar) -->
+    <string name="title_activity_share">Compartilhar</string>
+    <string name="textView_tituloShare">Compartilhar via</string>
 
     <!-- Enquanto converte -->
     <string name="TituloEspera">Convertendo</string>
@@ -29,26 +47,21 @@
 
     <!-- Tweet -->
     <string name="Tweet">Estou aprendendo sobre criptomoedas com o Converte Bitcoin</string>
+    <string name="tittle_button_twiter">Twitter</string>
 
     <!-- FaceBook -->
     <string name="facebook_app_id">217034842366715</string>
+    <string name="tittle_button_face">Facebook</string>
 
     <!-- Navigation -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_conversion">Conversion</string>
+    <string name="action_settings">Configurações</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_cripto_moedas">Cripto Moedas</string>
-
-
-    <!--Compatilhamento com facebook-->
-    <string name="title_activity_share">Share</string>
-    <string name="twtr">Twitter</string>
-    <string name="face">Facebook</string>
-    <string name="tituloShare">Compartilhar via</string>
 
 </resources>

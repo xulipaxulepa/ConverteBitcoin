@@ -22,7 +22,7 @@
             android:id="@+id/textViewTittle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tituloShare"
+            android:text="@string/textView_tituloShare"
             android:textAlignment="center"
             android:textStyle="bold" />
     </LinearLayout>
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:contentDescription="@string/face"
+            android:contentDescription="@string/tittle_button_face"
             app:srcCompat="@drawable/facebook" />
 
         <ImageView
@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:contentDescription="@string/twtr"
+            android:contentDescription="@string/tittle_button_face"
             app:srcCompat="@drawable/twitter" />
     </LinearLayout>
 
@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/face"
+            android:text="@string/tittle_button_face"
             android:textAllCaps="false"
             android:onClick="shareOnFacebook"
             android:textColor="@android:color/black"
@@ -79,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/twtr"
+            android:text="@string/tittle_button_twiter"
             android:textAllCaps="false"
             android:onClick="shareOnTwitter"
             android:textColor="@android:color/black"
