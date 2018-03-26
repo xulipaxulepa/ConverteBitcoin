@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\convertebitcoin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/home/wellington/Documentos/AndroidStudioProjects/Converte Bitcoin 2.0/converte-bitcoin-2.0/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\xulipasoftworks\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\06fcfe7b505812ace4e25fa83fe3a2e6\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/wellington/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/f603d69122217cd486b6a6a9571a235c/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\xulipasoftworks\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\458148ef034ced63beb4177ed7f6cbde\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/wellington/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a31df074ac21cabaa80cc1aa3a398428/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
