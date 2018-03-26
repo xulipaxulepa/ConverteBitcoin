@@ -1,0 +1,73 @@
+<resources>
+    <!-- Tela inicial do App (Home) -->
+    <string name="app_name">Converte Bitcoin</string>
+    <string name="mensagem_editText">Voeg een waarde toe in Bitcoin</string>
+
+    <string name="textView_title_nav_header_home">Converte Bitcoin</string>
+    <string name="textView_subTitle_nav_header_home">Menu</string>
+    <string name="title_item_menu_home">Huis</string>
+    <string name="title_item_menu_compartilhar">Delen</string>
+    <string name="title_item_menu_sair">Uitgang</string>
+    <string name="title_button_converter">Converteren</string>
+    <string name="textView_title_ultima_conversao">Laatste conversie</string>
+    <string name="textView_title_bitcoin">Bitcoin</string>
+    <string name="textView_title_real">Real</string>
+    <string name="textView_title_dolar">Dólar</string>
+    <string name="textView_title_mercado_moedas">Crypto-valutamarkt</string>
+
+
+
+    <!--Segunda tela (Compartilhar) -->
+    <string name="title_activity_share">Delen</string>
+    <string name="textView_tituloShare">Delen naar</string>
+
+    <!-- Enquanto converte -->
+    <string name="TituloEspera">Het omzetten</string>
+    <string name="MensagemEspera">De gewenste waarde converteren</string>
+
+    <!-- Dialog de conversão -->
+    <string name="TituloConversão">Conversie voltooid!</string>
+    <string name="MensagemConversão">De Bitcoin-waarde ingevoegd in Real (BRL) is:</string>
+
+    <!-- Caso não haja conexão -->
+    <string name="TituloSemConexão">Geen connectie!</string>
+    <string name="MensagemSemConexão">Verbind alstublieft uw apparaat met internet</string>
+
+    <!-- Caso não haja nenhum valor inserido -->
+    <string name="TituloSemValor">Geen waarde ingevoegd!</string>
+    <string name="MensagemSemValor">Voeg alsjeblieft een hoeveelheid Bitcoin toe om de conversie te doen!</string>
+
+    <!-- Caso o valor inserido seja um ponto -->
+    <string name="TituloPonto">Ongeldige waarde!</string>
+    <string name="MensagemPonto">De ingevoerde waarde komt niet overeen met een cijfer!</string>
+
+    <!-- Strings do Adapter -->
+    <string name="PreçoBitcoin">prijs BTC                       </string>
+    <string name="preçoUnitarioBitcoin">Eenheidsprijs BRL   </string>
+    <string name="preçoUnitarioDolar">Eenheidsprijs USD  </string>
+    <string name="preçoVariacao">% fluctuatie in 24hrs     </string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_TelaPrincipal">ca-app-pub-8594233121600137/9341936200</string>
+    <string name="ad_TelaAd">ca-app-pub-8594233121600137/5535041801</string>
+
+    <!-- Tweet -->
+    <string name="Tweet">Ik leer over Cryptocurrencies met Converte Bitcoin</string>
+    <string name="tittle_button_twiter">Twitter</string>
+
+    <!-- FaceBook -->
+    <string name="facebook_app_id">217034842366715</string>
+    <string name="tittle_button_face">Facebook</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cripto_moedas">Cripto Moedas</string>
+
+</resources>

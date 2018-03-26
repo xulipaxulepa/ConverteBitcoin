@@ -1,52 +1,58 @@
 <resources>
     <!-- Tela inicial do App (Home) -->
     <string name="app_name">Converte Bitcoin</string>
-    <string name="mensagem_editText">Insira um valor em Bitcoin</string>
+    <string name="mensagem_editText">Insert a value in Bitcoin</string>
 
     <string name="textView_title_nav_header_home">Converte Bitcoin</string>
     <string name="textView_subTitle_nav_header_home">Menu</string>
     <string name="title_item_menu_home">Home</string>
-    <string name="title_item_menu_compartilhar">Compartilhar</string>
-    <string name="title_item_menu_sair">Sair</string>
-    <string name="title_button_converter">Converter</string>
-    <string name="textView_title_ultima_conversao">Última Conversão</string>
+    <string name="title_item_menu_compartilhar">Share</string>
+    <string name="title_item_menu_sair">Exit</string>
+    <string name="title_button_converter">Convert</string>
+    <string name="textView_title_ultima_conversao">Last Conversion</string>
     <string name="textView_title_bitcoin">Bitcoin</string>
     <string name="textView_title_real">Real</string>
     <string name="textView_title_dolar">Dólar</string>
-    <string name="textView_title_mercado_moedas">Mercado de Criptomoedas</string>
+    <string name="textView_title_mercado_moedas">Crypto Currency Market</string>
 
 
 
     <!--Segunda tela (Compartilhar) -->
-    <string name="title_activity_share">Compartilhar</string>
-    <string name="textView_tituloShare">Compartilhar via</string>
+    <string name="title_activity_share">Share</string>
+    <string name="textView_tituloShare">Share to</string>
 
     <!-- Enquanto converte -->
-    <string name="TituloEspera">Convertendo</string>
-    <string name="MensagemEspera">Convertendo o valor desejado</string>
+    <string name="TituloEspera">Converting</string>
+    <string name="MensagemEspera">Converting the desired value</string>
 
     <!-- Dialog de conversão -->
-    <string name="TituloConversão">Conversão Feita!</string>
-    <string name="MensagemConversão">O valor do Bitcoin inserido em Real(R$) é:</string>
+    <string name="TituloConversão">Conversion Done!</string>
+    <string name="MensagemConversão">The Bitcoin value inserted in Real(BRL) is:</string>
 
     <!-- Caso não haja conexão -->
-    <string name="TituloSemConexão">Sem conexão!</string>
-    <string name="MensagemSemConexão">Por favor, conecte seu dispositivo à internet</string>
+    <string name="TituloSemConexão">No Connection!</string>
+    <string name="MensagemSemConexão">Please, connect your device to the internet</string>
 
     <!-- Caso não haja nenhum valor inserido -->
-    <string name="TituloSemValor">Nenhum valor Inserido!</string>
-    <string name="MensagemSemValor">Por favor, insira uma quantindade de Bitcoin para conversão!</string>
+    <string name="TituloSemValor">No value inserted!</string>
+    <string name="MensagemSemValor">Please, insert an amount of Bitcoin to do the conversion!</string>
 
     <!-- Caso o valor inserido seja um ponto -->
-    <string name="TituloPonto">Valor Invalido</string>
-    <string name="MensagemPonto">O valor digitado não corresponde a um número!</string>
+    <string name="TituloPonto">Invalid value!</string>
+    <string name="MensagemPonto">The value inserted do not correspond to a number!</string>
+
+    <!-- Strings do Adapter -->
+    <string name="PreçoBitcoin">Price BTC                       </string>
+    <string name="preçoUnitarioBitcoin">Unitary price BRL   </string>
+    <string name="preçoUnitarioDolar">Unitary price in USD  </string>
+    <string name="preçoVariacao">% fluctuation in 24hrs     </string>
 
     <!-- AdMob ad unit IDs -->
     <string name="banner_TelaPrincipal">ca-app-pub-8594233121600137/9341936200</string>
     <string name="ad_TelaAd">ca-app-pub-8594233121600137/5535041801</string>
 
     <!-- Tweet -->
-    <string name="Tweet">Estou aprendendo sobre criptomoedas com o Converte Bitcoin</string>
+    <string name="Tweet">I am learning about Cryptocurrencies with Converte Bitcoin</string>
     <string name="tittle_button_twiter">Twitter</string>
 
     <!-- FaceBook -->

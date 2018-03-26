@@ -56,7 +56,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Preço BTC                       " />
+                    android:text="@string/PreçoBitcoin" />
 
                 <TextView
                     android:id="@+id/textViewValorBtc"
@@ -80,7 +80,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Preço unitário em BRL   " />
+                    android:text="@string/preçoUnitarioBitcoin" />
 
                 <TextView
                     android:id="@+id/textViewValorBrl"
@@ -104,7 +104,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Preço unitário em USD  " />
+                    android:text="@string/preçoUnitarioDolar" />
 
                 <TextView
                     android:id="@+id/textViewValorUsd"
@@ -129,7 +129,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
                     android:layout_marginTop="5dp"
-                    android:text="% variação em 24hrs     " />
+                    android:text="@string/preçoVariacao" />
 
                 <TextView
                     android:id="@+id/textViewValorPercent"

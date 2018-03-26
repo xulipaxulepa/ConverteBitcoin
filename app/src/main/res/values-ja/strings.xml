@@ -1,0 +1,73 @@
+<resources>
+    <!-- Tela inicial do App (Home) -->
+    <string name="app_name">Converte Bitcoin</string>
+    <string name="mensagem_editText">Bitcoinに値を挿入する</string>
+
+    <string name="textView_title_nav_header_home">Converte Bitcoin</string>
+    <string name="textView_subTitle_nav_header_home">メニュー</string>
+    <string name="title_item_menu_home">ホーム</string>
+    <string name="title_item_menu_compartilhar">シェア</string>
+    <string name="title_item_menu_sair">出口</string>
+    <string name="title_button_converter">変換</string>
+    <string name="textView_title_ultima_conversao">最後の変換</string>
+    <string name="textView_title_bitcoin">Bitcoin</string>
+    <string name="textView_title_real">Real</string>
+    <string name="textView_title_dolar">Dólar</string>
+    <string name="textView_title_mercado_moedas">Crypto Currency Market</string>
+
+
+
+    <!--Segunda tela (Compartilhar) -->
+    <string name="title_activity_share">シェア</string>
+    <string name="textView_tituloShare">共有先</string>
+
+    <!-- Enquanto converte -->
+    <string name="TituloEspera">変じる</string>
+    <string name="MensagemEspera">希望の値を変換する</string>
+
+    <!-- Dialog de conversão -->
+    <string name="TituloConversão">変換完了！</string>
+    <string name="MensagemConversão">Real（BRL）に挿入されたBitcoinの値は次のとおりです。:</string>
+
+    <!-- Caso não haja conexão -->
+    <string name="TituloSemConexão">接続なし！</string>
+    <string name="MensagemSemConexão">あなたのデバイスをインターネットに接続してください</string>
+
+    <!-- Caso não haja nenhum valor inserido -->
+    <string name="TituloSemValor">値が挿入されていません！</string>
+    <string name="MensagemSemValor">変換を行うにはBitcoinを挿入してください！</string>
+
+    <!-- Caso o valor inserido seja um ponto -->
+    <string name="TituloPonto">値が無効です！</string>
+    <string name="MensagemPonto">挿入された値は数値に対応していません！</string>
+
+    <!-- Strings do Adapter -->
+    <string name="PreçoBitcoin">価格 BTC                       </string>
+    <string name="preçoUnitarioBitcoin">単価 BRL   </string>
+    <string name="preçoUnitarioDolar">単価 USD  </string>
+    <string name="preçoVariacao">% 変動 24hrs     </string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_TelaPrincipal">ca-app-pub-8594233121600137/9341936200</string>
+    <string name="ad_TelaAd">ca-app-pub-8594233121600137/5535041801</string>
+
+    <!-- Tweet -->
+    <string name="Tweet">私はConverte BitcoinでCrypto通貨について学んでいます</string>
+    <string name="tittle_button_twiter">Twitter</string>
+
+    <!-- FaceBook -->
+    <string name="facebook_app_id">217034842366715</string>
+    <string name="tittle_button_face">Facebook</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cripto_moedas">Cripto Moedas</string>
+
+</resources>

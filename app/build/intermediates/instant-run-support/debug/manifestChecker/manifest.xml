@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.apps4you.wellington.convertebitcoin"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.xulipasoftworks.xulipaxulepa.convertebitcoin"
+    android:versionCode="5"
+    android:versionName="2.5" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -21,10 +21,12 @@
         android:required="true" />
 
     <permission
-        android:name="com.apps4you.wellington.convertebitcoin.permission.C2D_MESSAGE"
+        android:name="com.xulipasoftworks.xulipaxulepa.convertebitcoin.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.apps4you.wellington.convertebitcoin.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.xulipasoftworks.xulipaxulepa.convertebitcoin.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -41,10 +43,11 @@
             android:exported="true" />
 
         <activity
-            android:name="com.apps4you.wellington.convertebitcoin.view.Home"
+            android:name="com.xulipasoftworks.xulipaxulepa.convertebitcoin.view.Home"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -52,13 +55,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.apps4you.wellington.convertebitcoin.view.ShareActivity"
+            android:name="com.xulipasoftworks.xulipaxulepa.convertebitcoin.view.ShareActivity"
             android:label="@string/title_activity_share"
-            android:parentActivityName="com.apps4you.wellington.convertebitcoin.view.Home"
+            android:parentActivityName="com.xulipasoftworks.xulipaxulepa.convertebitcoin.view.Home"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.apps4you.wellington.convertebitcoin.view.Home" />
+                android:value="com.xulipasoftworks.xulipaxulepa.convertebitcoin.view.Home" />
         </activity>
 
         <meta-data
@@ -156,7 +159,7 @@
             android:exported="true"
             android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
-                <data android:scheme="tagmanager.c.com.apps4you.wellington.convertebitcoin" />
+                <data android:scheme="tagmanager.c.com.xulipasoftworks.xulipaxulepa.convertebitcoin" />
 
                 <action android:name="android.intent.action.VIEW" />
 
@@ -197,7 +200,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.apps4you.wellington.convertebitcoin" />
+                <category android:name="com.xulipasoftworks.xulipaxulepa.convertebitcoin" />
             </intent-filter>
         </receiver>
         <!--
@@ -214,7 +217,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.apps4you.wellington.convertebitcoin.firebaseinitprovider"
+            android:authorities="com.xulipasoftworks.xulipaxulepa.convertebitcoin.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -232,11 +235,11 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.apps4you.wellington.convertebitcoin.FacebookInitProvider"
+            android:authorities="com.xulipasoftworks.xulipaxulepa.convertebitcoin.FacebookInitProvider"
             android:exported="false" />
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.apps4you.wellington.convertebitcoin.com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.xulipasoftworks.xulipaxulepa.convertebitcoin.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 

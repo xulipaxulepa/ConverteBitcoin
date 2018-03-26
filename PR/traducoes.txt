@@ -1,0 +1,35 @@
+<pt-BR>
+- Melhoria no Layout;
+- Suporte as cripto moedas Etherium e Ripple;
+- Suporte a Dólar;
+- Preço unitário e convertido das moedas e sua flutuação em um periodo de 24h;
+- Suporte a outros idiomas, tais quais: Inglês, Japonês, Holandês e Dinamarquês;
+- Opções para compartilhamento no Facebook e Twitter;
+</pt-BR>
+
+<en-US>
+- Improvements on Layout;
+- Support to the crypto currencies Etherium and Ripple;
+- Support to Dólar(USD);
+- Unitary and converted price of the crypto currencies and the fluctuation in a 24h span;
+- Support to other languages: Inglish, Japanese, Dutch e Danish;
+- Share Options on Facebook and Twitter;
+</en-US>
+
+<ja-JP>
+- ????????;
+- Crypto Etherium?Ripple????????????
+- ???????;
+- ????????????24?????;
+- ???????????????????????????????;
+- Facebook?Twitter????????;
+</ja-JP>
+
+da-DK
+
+nl-NL
+
+
+
+
+

@@ -1,0 +1,73 @@
+<resources>
+    <!-- Tela inicial do App (Home) -->
+    <string name="app_name">Converte Bitcoin</string>
+    <string name="mensagem_editText">Indsæt en værdi i Bitcoin</string>
+
+    <string name="textView_title_nav_header_home">Converte Bitcoin</string>
+    <string name="textView_subTitle_nav_header_home">Menu</string>
+    <string name="title_item_menu_home">Hjem</string>
+    <string name="title_item_menu_compartilhar">Del</string>
+    <string name="title_item_menu_sair">Afslut</string>
+    <string name="title_button_converter">Konvertere</string>
+    <string name="textView_title_ultima_conversao">Sidste konvertering</string>
+    <string name="textView_title_bitcoin">Bitcoin</string>
+    <string name="textView_title_real">Real</string>
+    <string name="textView_title_dolar">Dólar</string>
+    <string name="textView_title_mercado_moedas">Crypto Valutamarked</string>
+
+
+
+    <!--Segunda tela (Compartilhar) -->
+    <string name="title_activity_share">Del</string>
+    <string name="textView_tituloShare">Del til</string>
+
+    <!-- Enquanto converte -->
+    <string name="TituloEspera">Konvertering</string>
+    <string name="MensagemEspera">Konvertere den ønskede værdi</string>
+
+    <!-- Dialog de conversão -->
+    <string name="TituloConversão">Konvertering færdig!</string>
+    <string name="MensagemConversão">Bitcoin-værdien indsat i Real (BRL) er:</string>
+
+    <!-- Caso não haja conexão -->
+    <string name="TituloSemConexão">Ingen forbindelse!</string>
+    <string name="MensagemSemConexão">Vær venlig at forbinde din enhed til internettet</string>
+
+    <!-- Caso não haja nenhum valor inserido -->
+    <string name="TituloSemValor">Ingen værdi indsat!</string>
+    <string name="MensagemSemValor">Indsæt venligst et beløb af Bitcoin for at gøre konverteringen!</string>
+
+    <!-- Caso o valor inserido seja um ponto -->
+    <string name="TituloPonto">Ugyldig værdi!</string>
+    <string name="MensagemPonto">Værdien indsat svarer ikke til et tal!</string>
+
+    <!-- Strings do Adapter -->
+    <string name="PreçoBitcoin">Pris BTC                       </string>
+    <string name="preçoUnitarioBitcoin">Enhedspris BRL   </string>
+    <string name="preçoUnitarioDolar">Enhedspris USD  </string>
+    <string name="preçoVariacao">% udsving i 24hrs     </string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_TelaPrincipal">ca-app-pub-8594233121600137/9341936200</string>
+    <string name="ad_TelaAd">ca-app-pub-8594233121600137/5535041801</string>
+
+    <!-- Tweet -->
+    <string name="Tweet">Jeg lærer om Cryptocurrencies med Converte Bitcoin</string>
+    <string name="tittle_button_twiter">Twitter</string>
+
+    <!-- FaceBook -->
+    <string name="facebook_app_id">217034842366715</string>
+    <string name="tittle_button_face">Facebook</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cripto_moedas">Cripto Moedas</string>
+
+</resources>
