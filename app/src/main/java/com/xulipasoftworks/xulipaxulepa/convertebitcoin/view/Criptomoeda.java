@@ -100,6 +100,10 @@ public class Criptomoeda {
                 return(R.mipmap.ethereum);
             case 2:
                 return(R.mipmap.ripple);
+            case 3:
+                return (R.mipmap.iota);
+            case 4:
+                return (R.mipmap.dash);
             default:
                 return (R.mipmap.ic_launcher);
         }

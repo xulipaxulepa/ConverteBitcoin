@@ -1,32 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\home\\wellington\\Documentos\\AndroidStudioProjects\\Converte Bitcoin 2.0\\converte-bitcoin-2.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+            "outputFile": "/home/wellington/Documentos/AndroidStudioProjects/Converte Bitcoin 2.0/converte-bitcoin-2.0/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
             "map": [
                 {
-                    "source": "C:\\home\\wellington\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-12.0.0.aar\\00272d1d8edb3c64c72ee05e53d587c9\\res\\values-en-rSG\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "206",
-                        "endColumns": "99",
-                        "endOffsets": "305"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "103",
-                        "endOffsets": "154"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\convertebitcoin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\xulipasoftworks\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-12.0.0.aar\\a209c810ab5212e4765d88aa42df7719\\res\\values-en-rSG\\values.xml",
+                    "source": "/home/wellington/.gradle/caches/transforms-1/files-1.1/play-services-wallet-12.0.0.aar/784a1652808a85f13e23a6bc146d11c7/res/values-en-rSG/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

@@ -6,6 +6,7 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -45,6 +46,7 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
     TextView valorInseridoBtc;
     TextView valorConversaoBtcBrl;
     TextView valorConversaoBtcUsd;
+    TextView textViewBrl;
     String linguagem;
 
     String valor;
@@ -54,7 +56,7 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
     //Construtor da classe.
     public MyAsyncTask(Context context, TextView valorInseridoBtc, TextView valorConversaoBtcBrl,
                        TextView valorConversaoBtcUsd,
-                       String valor, List<Criptomoeda> moedas, ListView mListaDeMoedas, String linguagem){
+                       String valor, List<Criptomoeda> moedas, ListView mListaDeMoedas, String linguagem, TextView textViewBrl){
         this.valorInseridoBtc = valorInseridoBtc;
         this.valorConversaoBtcBrl = valorConversaoBtcBrl;
         this.valorConversaoBtcUsd = valorConversaoBtcUsd;
@@ -62,6 +64,7 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
         this.valor = valor;
         this.mListaDeMoedas = mListaDeMoedas;
         this.linguagem = linguagem;
+        this.textViewBrl = textViewBrl;
 
     }
 
@@ -210,12 +213,8 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
                     .setPositiveButton("OK", null).show();
 
             this.valorInseridoBtc.setText(valor);
-
-            this.valorConversaoBtcBrl.setText(String.format("%.2f", brl));
+            //this.valorConversaoBtcBrl.setText(String.format("%.2f", brl));
             this.valorConversaoBtcUsd.setText(String.format("%.2f", usd));
         }
-
-
     }
-
 }

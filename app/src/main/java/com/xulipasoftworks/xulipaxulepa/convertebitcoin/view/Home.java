@@ -19,6 +19,7 @@ import android.view.MenuItem;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -35,6 +36,8 @@ public class Home extends AppCompatActivity
     ActionBarDrawerToggle toggle;
     List<Criptomoeda> criptomoedas = new ArrayList<>();
     String linguagem;
+    TextView textViewBrl;
+    TextView valorConversaoBtcBrl;
 
 
     private boolean verificaConexão() {
@@ -43,7 +46,7 @@ public class Home extends AppCompatActivity
         return cm.getActiveNetworkInfo() != null;
     }
 
-    private void exibeMensagem(String titulo, String mensagem){
+    private void exibeMensagem(String titulo, String mensagem) {
         new AlertDialog.Builder(this)
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .setTitle(titulo)
@@ -60,6 +63,7 @@ public class Home extends AppCompatActivity
 
         //pega a linguagem do sistema, como String
         linguagem = Resources.getSystem().getConfiguration().locale.getLanguage();
+        desabilitarColunaReal();
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
@@ -75,8 +79,21 @@ public class Home extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        if(verificaConexão() == false){
-            exibeMensagem(getString(R.string.TituloSemConexão),getString(R.string.MensagemSemConexão));
+        if (verificaConexão() == false) {
+            exibeMensagem(getString(R.string.TituloSemConexão), getString(R.string.MensagemSemConexão));
+        }
+    }
+
+    public void desabilitarColunaReal() {
+        if (!(this.linguagem.equals("pt"))) {
+            LinearLayout linearLayoutLabel;
+            LinearLayout linearLayoutDados;
+            linearLayoutLabel = (LinearLayout) findViewById(R.id.LayoutLabelBtc);
+            linearLayoutDados = (LinearLayout) findViewById(R.id.LayoutDadosBtc);
+            this.textViewBrl = (TextView)findViewById(R.id.textViewBrl);
+            this.valorConversaoBtcBrl = (TextView)findViewById(R.id.textViewValorConversao);
+            linearLayoutLabel.removeView(this.textViewBrl);
+            linearLayoutDados.removeView(this.valorConversaoBtcBrl);
         }
     }
 
@@ -90,27 +107,27 @@ public class Home extends AppCompatActivity
         }
     }
 
-    /**@Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.home, menu);
-        return true;
+    /**@Override public boolean onCreateOptionsMenu(Menu menu) {
+    // Inflate the menu; this adds items to the action bar if it is present.
+    getMenuInflater().inflate(R.menu.home, menu);
+    return true;
     }**/
 
-    /**@Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }**/
+    /**
+     * @Override public boolean onOptionsItemSelected(MenuItem item) {
+     * // Handle action bar item clicks here. The action bar will
+     * // automatically handle clicks on the Home/Up button, so long
+     * // as you specify a parent activity in AndroidManifest.xml.
+     * int id = item.getItemId();
+     * <p>
+     * //noinspection SimplifiableIfStatement
+     * if (id == R.id.action_settings) {
+     * return true;
+     * }
+     * <p>
+     * return super.onOptionsItemSelected(item);
+     * }
+     **/
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -123,7 +140,7 @@ public class Home extends AppCompatActivity
         if (id == R.id.nav_home) {
 
         } else if (id == R.id.nav_share) {
-            Intent intent= new Intent(this, ShareActivity.class);
+            Intent intent = new Intent(this, ShareActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_exit) {
@@ -142,8 +159,7 @@ public class Home extends AppCompatActivity
     }
 
 
-
-    public void escondeTeclado(){
+    public void escondeTeclado() {
         //Faz o teclado virtual sumir.
         InputMethodManager inputManager = (InputMethodManager)
                 getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -153,23 +169,25 @@ public class Home extends AppCompatActivity
     }
 
     public void Converter(View view) {
-       this.escondeTeclado();
+        this.escondeTeclado();
 
         //Pega o valor digitado pelo usuário.
         EditText valorparaconverter = (EditText) this.findViewById(R.id.editTextValorConversion);
         List<Criptomoeda> moedas;
         ListView mLvListagem;
 
-        TextView valorInseridoBtc =  (TextView) findViewById(R.id.textViewValorInserido);
-        TextView valorConversaoBtcBrl =  (TextView) findViewById(R.id.textViewValorConversao);
-        TextView valorConversaoBtcUsd =  (TextView) findViewById(R.id.textViewValorConversaoUSD);
+        TextView valorInseridoBtc = (TextView) findViewById(R.id.textViewValorInserido);
+        TextView valorConversaoBtcBrl = (TextView) findViewById(R.id.textViewValorConversao);
+        TextView valorConversaoBtcUsd = (TextView) findViewById(R.id.textViewValorConversaoUSD);
+        TextView textViewBrl = (TextView) findViewById(R.id.textViewBrl);
+
 
         //Verifica se há um valor digitado, caso não houver demonstra uma mensagem.
-        if(valorparaconverter.getText().toString().equals("")){
-            exibeMensagem(getString(R.string.TituloSemValor),getString(R.string.MensagemSemValor));
+        if (valorparaconverter.getText().toString().equals("")) {
+            exibeMensagem(getString(R.string.TituloSemValor), getString(R.string.MensagemSemValor));
         }//Verifica se o valor digitado não é um ".", caso seja, exibe uma mensagem.
-        else if(valorparaconverter.getText().toString().equals(".")){
-            exibeMensagem(getString(R.string.TituloPonto),getString(R.string.MensagemPonto));
+        else if (valorparaconverter.getText().toString().equals(".")) {
+            exibeMensagem(getString(R.string.TituloPonto), getString(R.string.MensagemPonto));
         } else {
             //Transforma o valor digitado em String.
             String valor = valorparaconverter.getText().toString();
@@ -179,7 +197,7 @@ public class Home extends AppCompatActivity
             mLvListagem = (ListView) findViewById(R.id.listViewOthersConversions);
             moedas = new ArrayList<>();
 
-            MyAsyncTask minhaTarefaAssincrona = new MyAsyncTask(this, valorInseridoBtc, valorConversaoBtcBrl, valorConversaoBtcUsd, valor, moedas, mLvListagem, linguagem);
+            MyAsyncTask minhaTarefaAssincrona = new MyAsyncTask(this, valorInseridoBtc, valorConversaoBtcBrl, valorConversaoBtcUsd, valor, moedas, mLvListagem, linguagem, textViewBrl);
             //Executa a função assincrona de conversão.
             minhaTarefaAssincrona.execute(valor);
 
