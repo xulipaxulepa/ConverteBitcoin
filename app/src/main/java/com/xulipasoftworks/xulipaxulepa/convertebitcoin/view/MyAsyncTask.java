@@ -45,6 +45,7 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
     TextView valorInseridoBtc;
     TextView valorConversaoBtcBrl;
     TextView valorConversaoBtcUsd;
+    String linguagem;
 
     String valor;
 
@@ -53,13 +54,14 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
     //Construtor da classe.
     public MyAsyncTask(Context context, TextView valorInseridoBtc, TextView valorConversaoBtcBrl,
                        TextView valorConversaoBtcUsd,
-                       String valor, List<Criptomoeda> moedas, ListView mListaDeMoedas){
+                       String valor, List<Criptomoeda> moedas, ListView mListaDeMoedas, String linguagem){
         this.valorInseridoBtc = valorInseridoBtc;
         this.valorConversaoBtcBrl = valorConversaoBtcBrl;
         this.valorConversaoBtcUsd = valorConversaoBtcUsd;
         this.context = context;
         this.valor = valor;
         this.mListaDeMoedas = mListaDeMoedas;
+        this.linguagem = linguagem;
 
     }
 
@@ -129,10 +131,9 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
             //Atribui o valor de params na posição 0(neste caso o valor a ser computado) a valorparaconverter.
             this.valorparaconverter = strings[0];
 
-            //Chama o método para conectar com a API
-            //Passa como parametro a URL da API em formato String
-            return this.getJSONFromAPI("https://api.coinmarketcap.com/v1/ticker/?convert=BRL");
-
+                    //Chama o método para conectar com a API
+                    //Passa como parametro a URL da API em formato String
+                    return this.getJSONFromAPI("https://api.coinmarketcap.com/v1/ticker/?convert=BRL");
             } catch (Exception e){
 
                 String erro = e.getMessage();
@@ -148,20 +149,26 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
 
         try {
             json = new JSONArray(result);
-            for (int i=0; i <3; i++) {
+            for (int i=0; i <json.length(); i++) {
                 mJsonObject = (JSONObject) json.get(i);
-                Criptomoeda moeda = new Criptomoeda();
-                moeda.setId(mJsonObject.getString("id"));
-                moeda.setNome(mJsonObject.getString("name"));
-                moeda.setPrice_btc(mJsonObject.getString("price_btc"));
-                moeda.setPrice_usd_unit(String.format(mJsonObject.getString("price_usd"), "%.2f"));
-                moeda.setVariacao(mJsonObject.getString("percent_change_24h"));
-                resultado = Float.parseFloat(mJsonObject.getString("price_usd"))*Float.parseFloat(valorparaconverter);
-                moeda.setPrice_usd(String.format(resultado.toString(), "%.2f"));
-                moeda.setPrice_brl_unit(String.format(mJsonObject.getString("price_brl"), "%.2f"));
-                resultado = Float.parseFloat(mJsonObject.getString("price_brl"))*Float.parseFloat(valorparaconverter);
-                moeda.setPrice_brl(String.format(resultado.toString(), "%.2f"));
-                this.moedas.add(moeda);
+                if(mJsonObject.getString("id").equals("bitcoin") || mJsonObject.getString("id").equals("ethereum") ||
+                        mJsonObject.getString("id").equals("ripple") || mJsonObject.getString("id").equals("iota") ||
+                        mJsonObject.getString("id").equals("dash")){
+                    Criptomoeda moeda = new Criptomoeda();
+                    moeda.setId(mJsonObject.getString("id"));
+                    moeda.setNome(mJsonObject.getString("name"));
+                    moeda.setPrice_btc(mJsonObject.getString("price_btc"));
+                    moeda.setPrice_usd_unit(String.format(mJsonObject.getString("price_usd"), "%.2f"));
+                    moeda.setVariacao(mJsonObject.getString("percent_change_24h"));
+                    resultado = Float.parseFloat(mJsonObject.getString("price_usd"))*Float.parseFloat(valorparaconverter);
+                    moeda.setPrice_usd(String.format(resultado.toString(), "%.2f"));
+                    moeda.setPrice_brl_unit(String.format(mJsonObject.getString("price_brl"), "%.2f"));
+                    resultado = Float.parseFloat(mJsonObject.getString("price_brl"))*Float.parseFloat(valorparaconverter);
+                    moeda.setPrice_brl(String.format(resultado.toString(), "%.2f"));
+                    this.moedas.add(moeda);
+                } else {
+
+                }
             }
         } catch (JSONException e) {
             e.printStackTrace();
@@ -186,15 +193,28 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
         double brl = Double.parseDouble(cripto.getPrice_brl());
         double usd = Double.parseDouble(cripto.getPrice_usd());
 
-        new AlertDialog.Builder(context)
-                .setTitle(R.string.TituloConversão)
-                .setMessage(context.getString(R.string.MensagemConversão)+" "+String.format("%.2f", brl)+" Reais!")
-                .setPositiveButton("OK", null).show();
+        if(linguagem.equals("pt")){
+            new AlertDialog.Builder(context)
+                    .setTitle(R.string.TituloConversão)
+                    .setMessage(context.getString(R.string.MensagemConversão)+" "+String.format("%.2f", brl)+" Reais!")
+                    .setPositiveButton("OK", null).show();
 
-        this.valorInseridoBtc.setText(valor);
+            this.valorInseridoBtc.setText(valor);
 
-        this.valorConversaoBtcBrl.setText(String.format("%.2f", brl));
-        this.valorConversaoBtcUsd.setText(String.format("%.2f", usd));
+            this.valorConversaoBtcBrl.setText(String.format("%.2f", brl));
+            this.valorConversaoBtcUsd.setText(String.format("%.2f", usd));
+        } else {
+            new AlertDialog.Builder(context)
+                    .setTitle(R.string.TituloConversão)
+                    .setMessage(context.getString(R.string.MensagemConversãoUSD)+" "+String.format("%.2f", usd)+" Dolar!")
+                    .setPositiveButton("OK", null).show();
+
+            this.valorInseridoBtc.setText(valor);
+
+            this.valorConversaoBtcBrl.setText(String.format("%.2f", brl));
+            this.valorConversaoBtcUsd.setText(String.format("%.2f", usd));
+        }
+
 
     }
 

@@ -28,6 +28,7 @@
     <!-- Dialog de conversão -->
     <string name="TituloConversão">Konvertering færdig!</string>
     <string name="MensagemConversão">Bitcoin-værdien indsat i Real (BRL) er:</string>
+    <string name="MensagemConversãoUSD">Bitcoin-værdien indsat i Dolar(USD) is:</string>
 
     <!-- Caso não haja conexão -->
     <string name="TituloSemConexão">Ingen forbindelse!</string>

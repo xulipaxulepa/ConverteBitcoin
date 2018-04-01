@@ -2,6 +2,7 @@ package com.xulipasoftworks.xulipaxulepa.convertebitcoin.view;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -33,6 +34,7 @@ public class Home extends AppCompatActivity
 
     ActionBarDrawerToggle toggle;
     List<Criptomoeda> criptomoedas = new ArrayList<>();
+    String linguagem;
 
 
     private boolean verificaConexão() {
@@ -55,6 +57,9 @@ public class Home extends AppCompatActivity
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //pega a linguagem do sistema, como String
+        linguagem = Resources.getSystem().getConfiguration().locale.getLanguage();
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
@@ -174,7 +179,7 @@ public class Home extends AppCompatActivity
             mLvListagem = (ListView) findViewById(R.id.listViewOthersConversions);
             moedas = new ArrayList<>();
 
-            MyAsyncTask minhaTarefaAssincrona = new MyAsyncTask(this, valorInseridoBtc, valorConversaoBtcBrl, valorConversaoBtcUsd, valor, moedas, mLvListagem);
+            MyAsyncTask minhaTarefaAssincrona = new MyAsyncTask(this, valorInseridoBtc, valorConversaoBtcBrl, valorConversaoBtcUsd, valor, moedas, mLvListagem, linguagem);
             //Executa a função assincrona de conversão.
             minhaTarefaAssincrona.execute(valor);
 

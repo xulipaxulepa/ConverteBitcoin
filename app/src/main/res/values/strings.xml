@@ -28,6 +28,7 @@
     <!-- Dialog de conversão -->
     <string name="TituloConversão">Conversion Done!</string>
     <string name="MensagemConversão">The Bitcoin value inserted in Real(BRL) is:</string>
+    <string name="MensagemConversãoUSD">The Bitcoin value inserted in Dolar(USD) is:</string>
 
     <!-- Caso não haja conexão -->
     <string name="TituloSemConexão">No Connection!</string>

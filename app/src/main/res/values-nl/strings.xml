@@ -28,6 +28,7 @@
     <!-- Dialog de conversão -->
     <string name="TituloConversão">Conversie voltooid!</string>
     <string name="MensagemConversão">De Bitcoin-waarde ingevoegd in Real (BRL) is:</string>
+    <string name="MensagemConversãoUSD">De Bitcoin-waarde ingevoegd in Dolar(USD) is:</string>
 
     <!-- Caso não haja conexão -->
     <string name="TituloSemConexão">Geen connectie!</string>

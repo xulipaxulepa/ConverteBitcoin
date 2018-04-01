@@ -28,6 +28,7 @@
     <!-- Dialog de conversão -->
     <string name="TituloConversão">変換完了！</string>
     <string name="MensagemConversão">Real（BRL）に挿入されたBitcoinの値は次のとおりです。:</string>
+    <string name="MensagemConversãoUSD">Dolar（USD）に挿入されたBitcoinの値は次のとおりです。:</string>
 
     <!-- Caso não haja conexão -->
     <string name="TituloSemConexão">接続なし！</string>
