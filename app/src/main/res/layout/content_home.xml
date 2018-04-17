@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.apps4you.wellington.convertebitcoin.view.Home"
+    tools:context="com.xulipasoftworks.xulipaxulepa.convertebitcoin.view.Home"
     tools:showIn="@layout/app_bar_home">
 
     <com.google.android.gms.ads.AdView
@@ -25,6 +25,16 @@
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="52dp">
+        <Button
+            android:id="@+id/buttonChoseCriptoCoin"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cripto coin"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:onClick="showAlertDialogListView"/>
 
         <EditText
             android:id="@+id/editTextValorConversion"
@@ -64,7 +74,7 @@
 
             <TextView
                 android:id="@+id/textViewUltimaconversao"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
@@ -150,7 +160,7 @@
         <LinearLayout
             android:id="@+id/LayoutListView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
             android:orientation="vertical">

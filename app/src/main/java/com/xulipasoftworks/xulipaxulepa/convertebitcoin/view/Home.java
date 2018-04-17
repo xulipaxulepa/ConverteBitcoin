@@ -4,28 +4,29 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.net.ConnectivityManager;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Parcelable;
-import android.support.v7.app.AlertDialog;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import com.xulipasoftworks.xulipaxulepa.convertebitcoin.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.xulipasoftworks.xulipaxulepa.convertebitcoin.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,8 +37,10 @@ public class Home extends AppCompatActivity
     ActionBarDrawerToggle toggle;
     List<Criptomoeda> criptomoedas = new ArrayList<>();
     String linguagem;
+    String criptocoinChoosed;
     TextView textViewBrl;
     TextView valorConversaoBtcBrl;
+    ListView mListaDeMoedas = null;
 
 
     private boolean verificaConexão() {
@@ -61,10 +64,6 @@ public class Home extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        //pega a linguagem do sistema, como String
-        linguagem = Resources.getSystem().getConfiguration().locale.getLanguage();
-        desabilitarColunaReal();
-
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
@@ -82,16 +81,59 @@ public class Home extends AppCompatActivity
         if (verificaConexão() == false) {
             exibeMensagem(getString(R.string.TituloSemConexão), getString(R.string.MensagemSemConexão));
         }
+
+        //pega a linguagem do sistema, como String e desabilita a coluna Real caso não seja PT
+        linguagem = Resources.getSystem().getConfiguration().locale.getLanguage();
+        desabilitarColunaReal();
+    }
+
+
+    public void showAlertDialogListView(View view) {
+        criarAdapterView();
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setCancelable(true);
+        builder.setPositiveButton("Ok", null);
+        builder.setView(this.mListaDeMoedas);
+        AlertDialog dialog = builder.create();
+        dialog.show();
+
+    }
+
+    private void criarAdapterView() {
+        this.mListaDeMoedas = new ListView(this);
+        String[] moedas = {"BitCoin", "Ethereum", "Ripple", "Iota", "Dash"};
+
+        // Associacao do Adapter a ListView
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.choose_criptomoeda_adapter_item_list, R.id.textViewValorNomeCriptomoeda, moedas);
+        this.mListaDeMoedas.setAdapter(adapter);
+        this.mListaDeMoedas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                ViewGroup vg = (ViewGroup) view;
+                TextView txt = vg.findViewById(R.id.textViewValorNomeCriptomoeda);
+                criptocoinChoosed = txt.getText().toString();
+                Toast.makeText(Home.this, txt.getText().toString(), Toast.LENGTH_SHORT).show();
+                modificarColunaCritoCoin();
+            }
+        });
+
+    }
+
+    private void modificarColunaCritoCoin() {
+        TextView labelValorInseridoCriptoCoin = findViewById(R.id.textViewBtc);
+        EditText editText = findViewById(R.id.editTextValorConversion);
+
+        labelValorInseridoCriptoCoin.setText(criptocoinChoosed);
+        //editText.setHint(R.string.mensagem_editText+""+criptocoinChoosed);
+        editText.setHint(criptocoinChoosed);
     }
 
     public void desabilitarColunaReal() {
         if (!(this.linguagem.equals("pt"))) {
-            LinearLayout linearLayoutLabel;
-            LinearLayout linearLayoutDados;
-            linearLayoutLabel = (LinearLayout) findViewById(R.id.LayoutLabelBtc);
-            linearLayoutDados = (LinearLayout) findViewById(R.id.LayoutDadosBtc);
-            this.textViewBrl = (TextView)findViewById(R.id.textViewBrl);
-            this.valorConversaoBtcBrl = (TextView)findViewById(R.id.textViewValorConversao);
+            LinearLayout linearLayoutLabel = findViewById(R.id.LayoutLabelBtc);
+            LinearLayout  linearLayoutDados = findViewById(R.id.LayoutDadosBtc);
+            this.textViewBrl =  findViewById(R.id.textViewBrl);
+            this.valorConversaoBtcBrl = findViewById(R.id.textViewValorConversao);
             linearLayoutLabel.removeView(this.textViewBrl);
             linearLayoutDados.removeView(this.valorConversaoBtcBrl);
         }
@@ -172,14 +214,14 @@ public class Home extends AppCompatActivity
         this.escondeTeclado();
 
         //Pega o valor digitado pelo usuário.
-        EditText valorparaconverter = (EditText) this.findViewById(R.id.editTextValorConversion);
+        EditText valorparaconverter = this.findViewById(R.id.editTextValorConversion);
         List<Criptomoeda> moedas;
         ListView mLvListagem;
 
-        TextView valorInseridoBtc = (TextView) findViewById(R.id.textViewValorInserido);
-        TextView valorConversaoBtcBrl = (TextView) findViewById(R.id.textViewValorConversao);
-        TextView valorConversaoBtcUsd = (TextView) findViewById(R.id.textViewValorConversaoUSD);
-        TextView textViewBrl = (TextView) findViewById(R.id.textViewBrl);
+        TextView valorInseridoCriptoCoin = findViewById(R.id.textViewValorInserido);
+        TextView valorConversaoBtcBrl = findViewById(R.id.textViewValorConversao);
+        TextView valorConversaoBtcUsd = findViewById(R.id.textViewValorConversaoUSD);
+        TextView textViewBrl = findViewById(R.id.textViewBrl);
 
 
         //Verifica se há um valor digitado, caso não houver demonstra uma mensagem.
@@ -197,7 +239,7 @@ public class Home extends AppCompatActivity
             mLvListagem = (ListView) findViewById(R.id.listViewOthersConversions);
             moedas = new ArrayList<>();
 
-            MyAsyncTask minhaTarefaAssincrona = new MyAsyncTask(this, valorInseridoBtc, valorConversaoBtcBrl, valorConversaoBtcUsd, valor, moedas, mLvListagem, linguagem, textViewBrl);
+            MyAsyncTask minhaTarefaAssincrona = new MyAsyncTask(this, valorInseridoCriptoCoin, valorConversaoBtcBrl, valorConversaoBtcUsd, valor, moedas, mLvListagem, linguagem, textViewBrl, criptocoinChoosed);
             //Executa a função assincrona de conversão.
             minhaTarefaAssincrona.execute(valor);
 

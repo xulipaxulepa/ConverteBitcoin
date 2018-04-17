@@ -43,7 +43,8 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
     List<Criptomoeda> moedas = new ArrayList<>();
     ListView mListaDeMoedas;
     Float resultado;
-    TextView valorInseridoBtc;
+    String criptocoinChoosed;
+    TextView valorInseridoCriptoCoin;                             // EditText que exibe o valor inserido para conversão
     TextView valorConversaoBtcBrl;
     TextView valorConversaoBtcUsd;
     TextView textViewBrl;
@@ -54,10 +55,10 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
 
 
     //Construtor da classe.
-    public MyAsyncTask(Context context, TextView valorInseridoBtc, TextView valorConversaoBtcBrl,
+    public MyAsyncTask(Context context, TextView valorInseridoCriptoCoin, TextView valorConversaoBtcBrl,
                        TextView valorConversaoBtcUsd,
-                       String valor, List<Criptomoeda> moedas, ListView mListaDeMoedas, String linguagem, TextView textViewBrl){
-        this.valorInseridoBtc = valorInseridoBtc;
+                       String valor, List<Criptomoeda> moedas, ListView mListaDeMoedas, String linguagem, TextView textViewBrl, String criptocoinChoosed){
+        this.valorInseridoCriptoCoin = valorInseridoCriptoCoin;
         this.valorConversaoBtcBrl = valorConversaoBtcBrl;
         this.valorConversaoBtcUsd = valorConversaoBtcUsd;
         this.context = context;
@@ -65,6 +66,7 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
         this.mListaDeMoedas = mListaDeMoedas;
         this.linguagem = linguagem;
         this.textViewBrl = textViewBrl;
+        this.criptocoinChoosed = criptocoinChoosed;
 
     }
 
@@ -163,11 +165,14 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
                     moeda.setPrice_btc(mJsonObject.getString("price_btc"));
                     moeda.setPrice_usd_unit(String.format(mJsonObject.getString("price_usd"), "%.2f"));
                     moeda.setVariacao(mJsonObject.getString("percent_change_24h"));
+
                     resultado = Float.parseFloat(mJsonObject.getString("price_usd"))*Float.parseFloat(valorparaconverter);
                     moeda.setPrice_usd(String.format(resultado.toString(), "%.2f"));
                     moeda.setPrice_brl_unit(String.format(mJsonObject.getString("price_brl"), "%.2f"));
+
                     resultado = Float.parseFloat(mJsonObject.getString("price_brl"))*Float.parseFloat(valorparaconverter);
                     moeda.setPrice_brl(String.format(resultado.toString(), "%.2f"));
+
                     this.moedas.add(moeda);
                 } else {
 
@@ -202,7 +207,7 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
                     .setMessage(context.getString(R.string.MensagemConversão)+" "+String.format("%.2f", brl)+" Reais!")
                     .setPositiveButton("OK", null).show();
 
-            this.valorInseridoBtc.setText(valor);
+            this.valorInseridoCriptoCoin.setText(valor);
 
             this.valorConversaoBtcBrl.setText(String.format("%.2f", brl));
             this.valorConversaoBtcUsd.setText(String.format("%.2f", usd));
@@ -212,7 +217,7 @@ public class MyAsyncTask extends AsyncTask<String,String,String> {
                     .setMessage(context.getString(R.string.MensagemConversãoUSD)+" "+String.format("%.2f", usd)+" Dolar!")
                     .setPositiveButton("OK", null).show();
 
-            this.valorInseridoBtc.setText(valor);
+            this.valorInseridoCriptoCoin.setText(valor);
             //this.valorConversaoBtcBrl.setText(String.format("%.2f", brl));
             this.valorConversaoBtcUsd.setText(String.format("%.2f", usd));
         }

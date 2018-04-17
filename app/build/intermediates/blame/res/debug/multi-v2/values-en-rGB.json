@@ -89,6 +89,23 @@
                     }
                 },
                 {
+                    "source": "/home/wellington/.gradle/caches/transforms-1/files-1.1/facebook-common-4.32.0.aar/8a7dfb4fac3a9bd032c9fd503d27a996/res/values-en-rGB/values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,190,302,377",
+                        "endColumns": "134,111,74,147",
+                        "endOffsets": "185,297,372,520"
+                    },
+                    "to": {
+                        "startLines": "58,59,60,61",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5742,5877,5989,6064",
+                        "endColumns": "134,111,74,147",
+                        "endOffsets": "5872,5984,6059,6207"
+                    }
+                },
+                {
                     "source": "/home/wellington/.gradle/caches/transforms-1/files-1.1/play-services-gcm-12.0.0.aar/721e4468a38960f648e8797a1a71956f/res/values-en-rGB/values.xml",
                     "from": {
                         "startLines": "4",
@@ -188,23 +205,6 @@
                         "startOffsets": "7352",
                         "endColumns": "196",
                         "endOffsets": "7544"
-                    }
-                },
-                {
-                    "source": "/home/wellington/.gradle/caches/transforms-1/files-1.1/facebook-common-4.31.0.aar/7334fb9b6ddcc0e17af5e8f435b22849/res/values-en-rGB/values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,190,302,377",
-                        "endColumns": "134,111,74,147",
-                        "endOffsets": "185,297,372,520"
-                    },
-                    "to": {
-                        "startLines": "58,59,60,61",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5742,5877,5989,6064",
-                        "endColumns": "134,111,74,147",
-                        "endOffsets": "5872,5984,6059,6207"
                     }
                 },
                 {
