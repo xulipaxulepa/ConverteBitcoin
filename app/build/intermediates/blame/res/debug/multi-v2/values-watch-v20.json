@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/wellington/Documentos/AndroidStudioProjects/Converte Bitcoin 2.0/converte-bitcoin-2.0/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "C:\\convertebitcoin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/wellington/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.0.aar/c359655e1347d61df1ef245655a2fce2/res/values-watch-v20/values.xml",
+                    "source": "C:\\Users\\xulipasoftworks\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-12.0.0.aar\\3f1829d292153495eeeafc72b606a046\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

@@ -23,7 +23,7 @@ public class Criptomoeda {
     private String variacao;
 
 
-    protected Criptomoeda() {
+    public Criptomoeda() {
     }
 
 
@@ -106,6 +106,22 @@ public class Criptomoeda {
                 return (R.mipmap.dash);
             default:
                 return (R.mipmap.ic_launcher);
+        }
+    }
+
+    public int getImagenbyName(String nome){
+        if(nome.equals("Bitcoin")) {
+            return(R.mipmap.bitcoin);
+        } else if(nome.equals("Ethereum")) {
+            return(R.mipmap.ethereum);
+        } else if(nome.equals("Ripple")) {
+            return(R.mipmap.ripple);
+        } else if(nome.equals("IOTA")) {
+            return (R.mipmap.iota);
+        } else if(nome.equals("Dash")) {
+            return (R.mipmap.dash);
+        } else {
+            return (R.mipmap.ic_launcher);
         }
     }
 }

@@ -23,7 +23,7 @@ public class CriptoMoedaAdapter extends BaseAdapter {
 
 
     public CriptoMoedaAdapter(Context context, List<Criptomoeda> listaCriptomeda){
-        this.context= context;
+        this.context = context;
         this.listaCriptomeda = listaCriptomeda;
     }
 

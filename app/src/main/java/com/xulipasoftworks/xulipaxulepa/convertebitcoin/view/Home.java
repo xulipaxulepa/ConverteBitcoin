@@ -27,6 +27,7 @@ import android.widget.Toast;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.xulipasoftworks.xulipaxulepa.convertebitcoin.R;
+import com.xulipasoftworks.xulipaxulepa.convertebitcoin.adapter.ChooseCriptoMoedaAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +36,7 @@ public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     ActionBarDrawerToggle toggle;
-    List<Criptomoeda> criptomoedas = new ArrayList<>();
+    List <Criptomoeda> criptomoedas = new ArrayList<>();
     String linguagem;
     String criptocoinChoosed;
     TextView textViewBrl;
@@ -101,10 +102,11 @@ public class Home extends AppCompatActivity
 
     private void criarAdapterView() {
         this.mListaDeMoedas = new ListView(this);
-        String[] moedas = {"BitCoin", "Ethereum", "Ripple", "Iota", "Dash"};
+        String[] moedas = {"Bitcoin", "Ethereum", "Ripple", "IOTA", "Dash"};
 
         // Associacao do Adapter a ListView
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.choose_criptomoeda_adapter_item_list, R.id.textViewValorNomeCriptomoeda, moedas);
+        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.choose_criptomoeda_adapter_item_list, R.id.textViewValorNomeCriptomoeda, moedas);
+        ChooseCriptoMoedaAdapter adapter = new ChooseCriptoMoedaAdapter(this, moedas);
         this.mListaDeMoedas.setAdapter(adapter);
         this.mListaDeMoedas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
